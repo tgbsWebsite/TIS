@@ -275,14 +275,14 @@
         }
 
         /* Timeline Styles */
- .timeline-item.completed .timeline-dot {
-    background-color: #3d6ef1;
-    border-color: #3d6ef1;
-    transform: scale(1.1);
-    transition: all 0.3s ease-in-out;
-    /* Adjusted shadow to match the Blue (#3d6ef1) using equivalent RGB (61, 110, 241) */
-    box-shadow: 0 0 15px rgba(61, 110, 241, 0.5);
-}
+        .timeline-item.completed .timeline-dot {
+            background-color: #3d6ef1;
+            border-color: #3d6ef1;
+            transform: scale(1.1);
+            transition: all 0.3s ease-in-out;
+            /* Adjusted shadow to match the Blue (#3d6ef1) using equivalent RGB (61, 110, 241) */
+            box-shadow: 0 0 15px rgba(61, 110, 241, 0.5);
+        }
 
         .timeline-item.completed .timeline-dot .material-symbols-outlined {
             color: white;
@@ -487,7 +487,7 @@
 
                     <!-- left side: logo -->
                     <div class="flex items-center flex-shrink-0">
-                        <a href="/" class="flex items-center">
+                        <a href="#tis-form" class="flex items-center">
                             <img alt="TIS logo" src="./Assets_TIS/LOGO (2).svg"
                                 class="h-14 sm:h-16 md:h-20 lg:h-22 object-contain" />
                         </a>
@@ -520,8 +520,7 @@
                         <a href="https://wa.me/919920214191?text=I%20have%20queries%20regarding%20admissions.%20Can%20you%20help%20me%20out?%20"
                             target="_blank" aria-label="WhatsApp"
                             class="hidden md:block transition-opacity hover:opacity-80">
-                            <img src="./Icons/whatsapp.webp" class="w-7 h-7 object-contain"
-                                alt="whatsapp icon" />
+                            <img src="./Icons/whatsapp.webp" class="w-7 h-7 object-contain" alt="whatsapp icon" />
                         </a>
                         <div class="hidden md:flex items-center space-x-4">
                             <a href="tel:+919920214191" aria-label="Call" class="transition-opacity hover:opacity-80">
@@ -585,8 +584,7 @@
                         <a href="https://wa.me/919920214191?text=I%20have%20queries%20regarding%20admissions.%20Can%20you%20help%20me%20out?%20"
                             target="_blank"
                             class="flex items-center text-gray-700 dark:text-gray-200 hover:text-primary">
-                            <img src="./Icons/whatsapp.webp" class="w-5 h-5 object-contain mr-2"
-                                alt="whatsapp icon" />
+                            <img src="./Icons/whatsapp.webp" class="w-5 h-5 object-contain mr-2" alt="whatsapp icon" />
                             WhatsApp
                         </a>
                         <a href="mailto:tis@thakureducation.org"
@@ -650,1509 +648,570 @@
         </header>
 
 
+       <section class="relative w-full min-h-screen bg-[#f3f7fb] overflow-hidden font-sans flex flex-col">
+    <div class="absolute inset-0 z-0 pointer-events-none"
+        style="background-image: linear-gradient(#dce8f4 1px, transparent 1px), linear-gradient(90deg, #dce8f4 1px, transparent 1px); background-size: 80px 80px;">
+        <div class="absolute top-10 right-[15%] w-40 h-40 bg-[#e6eff7] rounded-full mix-blend-multiply opacity-50"></div>
+        <div class="absolute top-40 right-10 w-32 h-32 bg-[#e6eff7] rounded-tl-full mix-blend-multiply opacity-50"></div>
+        <div class="absolute bottom-40 left-10 w-60 h-60 bg-[#e6eff7] rounded-tr-full mix-blend-multiply opacity-50"></div>
+    </div>
 
-   <main id="tis-form" class="min-h-screen flex flex-col bg-white">
-    <div class="flex-grow">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8 pt-6 sm:pt-12 md:pt-20">
+    <header class="relative z-20 w-full px-6 md:px-12 py-8 flex flex-col md:flex-row items-start md:items-center gap-8">
+        <div class="flex items-center gap-3">
+            <div class="w-[3px] h-12 bg-[#0f2a4a]"></div>
+            <div class="text-[#0f2a4a] font-bold text-[15px] leading-[1.15] tracking-tight">
+                Thakur<br>International<br>School
+            </div>
+        </div>
+        <nav class="flex gap-6 text-[15px] text-black font-medium">
+            <a href="#" class="hover:text-blue-600 transition">About</a>
+            <a href="#" class="hover:text-blue-600 transition">Admissions</a>
+            <a href="#" class="hover:text-blue-600 transition">Academics</a>
+            <a href="#" class="hover:text-blue-600 transition">Contact</a>
+        </nav>
+    </header>
 
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 md:gap-10 items-start mt-10">
+    <main class="relative z-20 flex-grow w-full max-w-[1500px] mx-auto px-6 md:px-12 flex flex-col lg:flex-row items-end justify-between pb-0">
 
-                <div class="lg:col-span-8 relative">
+        <div class="w-full lg:w-[55%] flex flex-col items-start pt-4 pb-10 z-10">
+            <h1 class="text-[#0f2a4a] text-[48px] lg:text-[72px] font-[900] leading-[1.05] mb-10 tracking-tighter drop-shadow-sm">
+                A World of Learning,<br>
+                A Lifetime of Growth
+            </h1>
 
-                    <div class="lg:pr-12">
-                        <p class="text-center sm:text-left pt-12 sm:pt-0 md:pt-0 lg:pt-0 text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-black uppercase text-[#112547] leading-tight">
-                           A World of Learning<span class="text-[#fcc513]"><br> A Lifetime of Growth</span>
-                        </p>
+            <div class="relative group w-full">
+                <div class="absolute -right-10 top-1/2 -translate-y-1/2 w-48 h-72 bg-blue-400/20 blur-[60px] rounded-full pointer-events-none"></div>
 
-                        <p class="text-center sm:text-left font-serif italic text-xl sm:text-2xl md:text-3xl lg:text-4xl text-gray-700 mt-3 pb-6">
-                            Welcome to Thakur International School
-                        </p>
+                <div class="relative z-10 bg-[#fcc513] rounded-[10px] pl-8 pr-48 py-10 w-full max-w-[700px] shadow-[20px_10px_40px_-15px_rgba(0,0,0,0.3)]">
+                    <h2 class="text-black text-[42px] md:text-[54px] font-[900] leading-[1.05] tracking-tight mb-6">
+                        ADMISSIONS OPEN<br>FOR 2026-27.
+                    </h2>
+                    <p class="text-black text-[38px] md:text-[42px] font-medium leading-tight mb-2">
+                        (ICSE)
+                    </p>
+                    <p class="text-black text-[22px] md:text-[26px] font-[800]">
+                        Batch 2026-27
+                    </p>
+                </div>
+            </div>
+        </div>
 
-                        <div class="mt-3 mb-6 md:mb-10 flex items-center">
-                            <h1 class="text-5xl md:text-7xl font-bold text-[#112547]">
-                                ICSE
-                            </h1>
+        <div class="relative w-full lg:w-[15%] flex justify-center items-end z-30 lg:-ml-[22rem] mt-10 lg:mt-0 pointer-events-none">
+            <img src="/Icons/GIRL.png" alt="Smiling Student"
+                class="w-[320px] lg:w-[400px] max-w-none h-auto object-cover object-top drop-shadow-2xl pointer-events-auto" style="max-height: 480px;" />
+        </div>
 
-                            <div class="ml-3 border-l-2 border-slate-200 pl-3 md:ml-6 md:pl-6">
-                                <h3 class="text-sm md:text-lg font-bold text-slate-800 leading-tight">
-                                    Admissions Open for 
-                                </h3>
-                                <h2 class="text-sm md:text-lg text-slate-600 leading-tight">
-                                    (Nursery | Jr KG | Sr KG | Grades 1–9 )
-                                </h2>
-                                <p class="mt-1 text-xs md:text-base font-semibold text-[#112547]">
-                                    Batch 2026–27
-                                </p>
-                            </div>
+        <div class="w-full lg:w-[30%] flex justify-end pb-10 pt-6 lg:pt-0 z-20">
+            <div class="bg-[#f8fbfd]/95 backdrop-blur-sm border-[2px] border-[#9dbcdf] rounded-2xl p-8 w-full max-w-[380px] shadow-[0_10px_30px_-10px_rgba(0,0,0,0.1)]">
+                <h3 class="text-[22px] font-black text-black text-center leading-tight mb-1">
+                    ENQUIRE NOW<br>FOR 2026-27
+                </h3>
+                <p class="text-center text-black font-medium text-[15px] mb-6">Apply</p>
+
+                <form action="#" method="POST" class="flex flex-col gap-4">
+                    <input type="text" placeholder="Name"
+                        class="w-full px-4 py-3 border border-gray-300 rounded-lg text-[15px] focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 placeholder-gray-500 bg-white">
+
+                    <input type="email" placeholder="Email"
+                        class="w-full px-4 py-3 border border-gray-300 rounded-lg text-[15px] focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 placeholder-gray-500 bg-white">
+
+                    <div class="relative">
+                        <select class="w-full px-4 py-3 border border-gray-300 rounded-lg text-[15px] focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 appearance-none bg-white text-gray-700 cursor-pointer">
+                            <option value="" disabled selected>Select Grade</option>
+                            <option value="nursery">Nursery</option>
+                            <option value="jr-kg">Jr KG</option>
+                            <option value="sr-kg">Sr KG</option>
+                            <option value="grades-1-9">Grades 1-9</option>
+                        </select>
+                        <div class="absolute inset-y-0 right-4 flex items-center pointer-events-none">
+                            <svg class="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <button type="submit"
+                        class="w-full bg-[#fcc513] hover:bg-[#fcc513] hover:opacity-90 text-black font-bold text-[16px] py-4 rounded-lg mt-2 transition-colors duration-200 shadow-md hover:shadow-lg">
+                        SUBMIT ENQUIRY
+                    </button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <div class="relative z-40 bg-[#1e3a5f] w-full py-3 md:py-4 mt-auto">
+        <div class="w-full flex justify-center items-center px-4 text-center">
+            <span class="text-[45px] md:text-[48px] font-[900] tracking-wider uppercase text-white drop-shadow-md leading-none">
+                NURSERY | JR KG | SR KG | GRADES 1-9
+            </span>
+        </div>
+    </div>
+</section>
+
+
+
+    </div>
+    <section id="welcome"
+        class="relative pt-20 pb-0 px-4 sm:px-6 lg:px-8 overflow-hidden bg-background-light dark:bg-background-dark font-display">
+        <div class="absolute inset-0 geometric-bg"></div>
+        <div class="relative max-w-4xl mx-auto text-center z-10">
+            <p class="text-4xl sm:text-5xl font-bold tracking-tight text-black dark:text-gray-100">WELCOME TO</p>
+            <p class="mt-2 text-4xl sm:text-5xl font-bold tracking-tight text-primary dark:text-gray-100">
+
+                THAKUR INTERNATIONAL SCHOOL </p>
+            <div class="mt-6 mx-auto w-24 h-1.5  bg-[#112547] rounded-full"></div>
+
+            <br class="mt-8 text-lg leading-8 text-text-paragraph-light dark:text-text-paragraph-dark text-justify">
+            Welcome to Thakur International School, where education is a journey of discovery, integrity and
+            achievement. We are committed to nurturing confident learners, responsible citizens and compassionate
+            leaders prepared to thrive in an ever-evolving world.
+            </br>
+            Rooted in strong values and driven by academic excellence, our school provides an enriching environment
+            where every child is encouraged to explore, question, create and grow.
+            </p>
+            </br>
+        </div>
+    </section>
+
+
+
+    <div class="bg-background-light dark:bg-background-dark pt-2 sm:pt-8 pb-10">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl md:text-5xl font-bold text-heading-light dark:text-heading-dark">
+                Vision &
+                <span class="text-primary">Mission</span>
+            </h2>
+            <div class="mt-6 mx-auto w-24 h-1.5 bg-[#112547] rounded-full"></div>
+        </div>
+
+        <section class="relative w-full font-sans flex flex-col items-center justify-center px-4 overflow-hidden">
+            <div class="relative w-full max-w-[1400px] flex flex-col gap-8 md:gap-12">
+                
+                <div class="relative w-full md:w-[85%] self-start z-10">
+                    <div class="absolute -left-10 top-1/2 -translate-y-1/2 w-48 h-48 bg-[#dcb174] opacity-20 blur-[30px] rounded-full pointer-events-none"></div>
+                    <div class="absolute -left-6 top-1/2 -translate-y-1/2 w-40 h-40 bg-[#e4c99e] opacity-40 blur-[20px] rounded-full pointer-events-none"></div>
+
+                    <div class="relative bg-[#253966] text-white rounded-[24px] p-8 pl-36 shadow-[0_15px_40px_-10px_rgba(37,57,102,0.3)]">
+                        <div class="absolute left-[-20px] top-1/2 -translate-y-1/2 flex items-center justify-center pointer-events-none">
+                            <img src="./Assets_TIS/vision.svg" alt="Vision Icon" class="w-40 h-40 object-contain drop-shadow-md" />
                         </div>
 
+                        <h3 class="text-[#f1c981] text-[24px] font-bold mb-3 tracking-wide">Vision</h3>
+                        <p class="text-[15px] text-gray-200 leading-[1.6] font-medium pr-4">
+                            To promote all young learners towards becoming responsible global citizens who are intellectual and ethical in their approach to their own lives and the world.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="relative w-full md:w-[85%] self-end z-20 mt-4 md:-mt-8">
+                    <div class="relative bg-white text-[#253966] rounded-[24px] p-8 pr-40 shadow-[0_15px_40px_-10px_rgba(0,0,0,0.08)]">
+                        <h3 class="text-[#253966] text-[24px] font-bold mb-3 tracking-wide">Mission</h3>
+                        <p class="text-[15px] text-gray-600 leading-[1.6] font-medium pl-2">
+                            To provide holistic education that nurtures scientific temper and ethical values, grooming the students to be worthy and responsible citizens.
+                        </p>
+
+                        <div class="absolute right-[-30px] top-1/2 -translate-y-1/2 flex items-center justify-center pointer-events-none">
+                            <img src="./Assets_TIS/mission.svg" alt="Mission Icon" class="w-48 h-48 object-contain drop-shadow-xl" />
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+
+        <!-- Inserted tis Programme section -->
+        <main class="lg:flex w-full min-h-screen">
+            <!-- Left Hero Section -->
+            <section class="lg:w-5/12 relative h-[500px] lg:h-auto flex-shrink-0">
+                <div class="absolute inset-0 w-full h-full">
+                    <img alt="Academic Excellence" class="w-full h-full object-cover" src="./Assets_TIS/bg.jpeg" />
+                </div>
+                <!-- Overlay Card -->
+                <div class="absolute bottom-24 max-w-sm">
+                    <div class="bg-[#0A1E3F] p-8 rounded-r-xl shadow-xl">
+                        <h1 class="font-serif text-[36px] text-[#fcc513] mb-3 italic"
+                            style="font-family: 'Playfair Display', serif;">Academics</h1>
+                        <p class="text-white text-base font-light leading-relaxed">
+                            Broad, balanced, and future-focused education rooted in fostering curiosity and creativity.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Right Content Grid -->
+            <section class="lg:w-7/12 p-2 lg:p-2 flex flex-col gap-3 lg:overflow-y-auto">
+                <!-- Our Philosophy -->
+                <div class="bg-[#eef2f4] rounded-xl p-4 lg:p-6 shadow-sm border border-gray-100">
+                    <div>
+                        <h2 class="text-3xl font-bold text-[#0A1E3F] mb-3">Our Philosophy</h2>
+                        <p class="text-gray-600 leading-relaxed">
+                            At Thakur International School, we offer an ICSE curriculum, ensuring that our students
+                            receive a broad, balanced, and future focused education. Our academic philosophy is rooted
+                            in fostering curiosity, critical thinking, creativity, and a lifelong love for learning.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Curriculum Cards Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                    <!-- ICSE Curriculum Card -->
+                    <article class="bg-[#F5E6D3] rounded-xl p-8 flex flex-col justify-between h-full space-y-6">
                         <div>
-                            <ul class="w-full sm:w-fit grid grid-cols-3 gap-2 sm:gap-6 text-xs sm:text-lg text-gray-800 mt-4 sm:mt-6">
-                                <li class="inline-flex items-start gap-1 sm:gap-2 w-fit">
-                                    <span class="material-icons text-[#112547] text-sm sm:text-2xl">check_circle</span>
-                                    <span class="leading-snug">Inspiring Excellence</span>
+                            <h3 class="text-3xl font-bold text-[#0A1E3F] mb-4">ICSE<br />Curriculum</h3>
+                            <p class="text-[#0A1E3F] text-sm leading-relaxed mb-6 opacity-80">
+                                We offer an ICSE curriculum that promotes academic rigor and depth, building a strong
+                                and confident foundation for higher education. It develops research skills, creativity
+                                and independent thinking.
+                            </p>
+                            <ul class="space-y-3">
+                                <li class="flex items-center gap-3">
+                                    <div
+                                        class="flex-shrink-0 w-6 h-6 bg-[#2F80ED] rounded-full flex items-center justify-center">
+                                        <span class="material-symbols-outlined text-white text-sm">check</span>
+                                    </div>
+                                    <span class="font-medium text-[#0A1E3F]">Academic Rigor & Depth</span>
                                 </li>
-                                <li class="inline-flex items-start gap-1 sm:gap-2 w-fit">
-                                    <span class="material-icons text-[#112547] text-sm sm:text-2xl">check_circle</span>
-                                    <span class="leading-snug"> Shaping Character</span>
-                                </li>
-                                <li class="inline-flex items-start gap-1 sm:gap-2 w-fit">
-                                    <span class="material-icons text-[#112547] text-sm sm:text-2xl">check_circle</span>
-                                    <span class="leading-snug">Empowering Futures</span>
+                                <li class="flex items-center gap-3">
+                                    <div
+                                        class="flex-shrink-0 w-6 h-6 bg-[#2F80ED] rounded-full flex items-center justify-center">
+                                        <span class="material-symbols-outlined text-white text-sm">check</span>
+                                    </div>
+                                    <span class="font-medium text-[#0A1E3F]">Outstanding Board Results</span>
                                 </li>
                             </ul>
                         </div>
+                    </article>
 
-                        <div class="max-w-7xl mx-auto px-0 sm:px-1 lg:px-2 pt-8 sm:pt-6 md:pt-8 pb-10 sm:pb-16">
-                            <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-10 sm:gap-16 md:gap-24 lg:gap-[20rem] items-baseline">
-                                <div class="text-left">
-                                    <p class="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-medium text-[#fcc513]">
-                                        0+
-                                    </p>
-                                    <p class="mt-2 text-lg sm:text-xl md:text-2xl text-gray-900">
-                                       Students
-                                    </p>
+                    <!-- Robotics & Innovation Card -->
+                    <article class="bg-[#0A1E3F] rounded-xl p-8 flex flex-col justify-between h-full space-y-6">
+                        <div>
+                            <div class="mb-6">
+                                <div
+                                    class="w-14 h-14 bg-[#fcc513] rounded-full flex items-center justify-center text-[#0A1E3F]">
+                                    <span class="material-symbols-outlined text-3xl">smart_toy</span>
                                 </div>
-                                <div class="text-left">
-                                    <p class="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-medium text-[#fcc513]">
-                                        0+
-                                    </p>
-                                    <p class="mt-2 text-lg sm:text-xl md:text-2xl text-gray-900 whitespace-nowrap">
-                                       Co-Curricular Activities
-                                    </p>
-                                </div>
+                            </div>
+                            <h3 class="text-2xl font-bold text-white mb-3">Robotics</h3>
+                            <p class="text-gray-300 text-sm leading-relaxed mb-6">
+                                Hands on Robotics learning blends coding, logic and innovation through practical
+                                exploration. Robotics activities strengthens diagnostic skills, design expertise and
+                                real world application.
+                            </p>
+                            <ul class="space-y-3">
+                                <li class="flex items-center gap-3">
+                                    <div
+                                        class="flex-shrink-0 w-6 h-6 bg-[#2F80ED] rounded-full flex items-center justify-center">
+                                        <span class="material-symbols-outlined text-white text-sm">check</span>
+                                    </div>
+                                    <span class="font-medium text-white">Coding & Logic</span>
+                                </li>
+                                <li class="flex items-center gap-3">
+                                    <div
+                                        class="flex-shrink-0 w-6 h-6 bg-[#2F80ED] rounded-full flex items-center justify-center">
+                                        <span class="material-symbols-outlined text-white text-sm">check</span>
+                                    </div>
+                                    <span class="font-medium text-white">Real World Application</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Learning Methodologies -->
+                <div class="bg-[#efede4] rounded-xl p-8 shadow-sm border border-gray-100">
+                    <h3 class="text-xl font-bold text-[#0A1E3F] mb-8">Learning Methodologies</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <!-- Method 1 -->
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="w-16 h-16 bg-[#fcc513] rounded-full flex items-center justify-center flex-shrink-0">
+                                <span class="material-symbols-outlined text-3xl text-[#0A1E3F]">lightbulb</span>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-[#0A1E3F] mb-1">Concept Based Learning</h4>
+                                <p class="text-sm text-gray-500">We encourage students to understand the 'why' and 'how'
+                                    behind every concept, moving beyond memorization to deep comprehension.</p>
+                            </div>
+                        </div>
+                        <!-- Method 2 -->
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="w-16 h-16 bg-[#fcc513] rounded-full flex items-center justify-center flex-shrink-0">
+                                <span class="material-symbols-outlined text-3xl text-[#0A1E3F]">person</span>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-[#0A1E3F] mb-1">Personalized Learning</h4>
+                                <p class="text-sm text-gray-500">Every child is unique. Our teaching approach is
+                                    tailored to individual strengths, needs, and interests.</p>
+                            </div>
+                        </div>
+                        <!-- Method 3 -->
+                        <div class="flex items-center gap-4">
+                            <div
+                                class="w-16 h-16 bg-[#fcc513] rounded-full flex items-center justify-center flex-shrink-0">
+                                <span class="material-symbols-outlined text-3xl text-[#0A1E3F]">science</span>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-[#0A1E3F] mb-1">Interdisciplinary Learning</h4>
+                                <p class="text-sm text-gray-500">We promote connections across subjects and real-world
+                                    contexts, helping students develop a holistic perspective.</p>
                             </div>
                         </div>
                     </div>
-
-                    <div class="absolute bottom-0 right-0 z-10">
-                        <img alt="student" style="height: 465px; width: auto;" src="./Icons/GIRL.png" />
-                    </div>
                 </div>
-
-                <div class="lg:col-span-4 bg-white p-5 sm:p-6 md:p-8 rounded-lg shadow-2xl w-full max-w-full border-t-4 border-[#112547]">
-                    <div class="text-center">
-                        <h3 class="text-lg sm:text-xl font-bold uppercase text-[#112547]">
-                            Enquire Now <span class="text-[#fcc513]"> for 2026-27</span>
-                        </h3>
-                        <p class="text-gray-600 mt-1 text-sm sm:text-base">Apply </p>
-                    </div>
-
-                    <div id="npf-form" class="npf_wgts" data-w="3161dad8e26b7ac51061b90c16309269" data-height="600px"></div>
-
-                    <script>
-                        function adjustNPFHeight() {
-                            const widget = document.getElementById('npf-form');
-                            if (!widget) return;
-                            widget.setAttribute('data-height', window.innerWidth < 640 ? '850px' : '600px');
-                        }
-                        adjustNPFHeight();
-                        window.addEventListener('resize', adjustNPFHeight);
-
-                        var s = document.createElement("script");
-                        s.type = "text/javascript";
-                        s.async = true;
-                        s.src = "https://widgets.in8.nopaperforms.com/emwgts.js";
-                        document.body.appendChild(s);
-                    </script>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</main>
-
-
-
-
-
-    </div>
-<section id="welcome"
-    class="relative pt-24 pb-16 px-4 sm:px-6 lg:px-8 overflow-hidden bg-background-light dark:bg-background-dark font-display">
-
-    <div class="relative max-w-4xl mx-auto text-center z-10">
-        <h1 class="flex flex-col gap-2">
-            <span class="text-4xl sm:text-5xl font-bold tracking-tight text-black dark:text-gray-100">
-                WELCOME TO
-            </span>
-            <span class="text-4xl sm:text-5xl font-bold tracking-tight text-primary dark:text-gray-100">
-                THAKUR INTERNATIONAL SCHOOL
-            </span>
-        </h1>
-
-        <div class="my-10 mx-auto w-24 h-1.5 bg-[#112547] rounded-full"></div>
-
-        <div class="space-y-6 text-lg md:text-xl leading-relaxed text-text-paragraph-light dark:text-text-paragraph-dark text-justify sm:text-center">
-            <p class="px-2 md:px-6">
-                Welcome to Thakur International School, where education is a journey of discovery, integrity, and achievement. We are committed to nurturing confident learners, responsible citizens, and compassionate leaders prepared to thrive in an ever-evolving world.
-            </p>
-            
-            <p class="px-2 md:px-6">
-                Rooted in strong values and driven by academic excellence, our school provides an enriching environment where every child is encouraged to explore, question, create, and grow.
-            </p>
-        </div>
-    </div>
-</section>
-
-
-    <div class="min-h-full">
-<div class="bg-background-light dark:bg-background-dark py-20 sm:py-20">
-
-    <div class="container mx-auto max-w-[1350px] px-4 lg:px-8">
-
-        <div class="text-center mb-14 -mt-8">
-            <h2 class="text-4xl md:text-5xl font-bold text-heading-light dark:text-heading-dark">
-                Vision &amp;
-                <span class="text-primary">Mission</span>
-            </h2>
-            <div class="mt-8 mx-auto w-24 h-1.5 bg-[#112547] rounded-full"></div>
-        </div>
-
-<div class="rounded-2xl shadow-lg p-6 lg:p-10 flex flex-col md:flex-row items-stretch justify-center"
-    style="background-color: #F9FAFB;">
-    
-    <div class="flex-1 px-4 py-2 md:pr-8 lg:pr-10 flex flex-col md:flex-row items-center md:items-start justify-center">
-
-        <div class="flex-shrink-0 mb-4 md:mb-0 md:mr-6">
-            <div class="w-20 h-20 flex items-center justify-center">
-                <img src="./Assets_TIS/vision.svg" alt="Vision Icon"
-                    class="w-20 h-20 object-contain" />
-            </div>
-        </div>
-
-        <div class="text-center md:text-left">
-            <h3 class="text-2xl font-bold mb-2" style="color: #111827;">
-                Vision
-            </h3>
-            <ul class="text-base max-w-md mx-auto md:mx-0 text-[#374151] list-disc pl-5 leading-snug text-justify">
-                <li>To promote all young learners towards becoming responsible global citizens who are intellectual and ethical in their approach to their own lives and the world.</li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="hidden md:block w-px self-stretch my-6" style="background-color: #D1D5DB;">
-    </div>
-
-    <div class="flex-1 px-4 py-2 md:pl-8 lg:pl-10 flex flex-col md:flex-row items-center md:items-start justify-center mt-6 md:mt-0">
-
-        <div class="flex-shrink-0 mb-4 md:mb-0 md:mr-6">
-            <div class="w-20 h-20 flex items-center justify-center">
-                <img src="./Assets_TIS/mission.svg" alt="Mission Icon"
-                    class="w-20 h-20 object-contain" />
-            </div>
-        </div>
-
-        <div class="text-center md:text-left">
-            <h3 class="text-2xl font-bold mb-2" style="color: #111827;">
-                Mission
-            </h3>
-            <ul class="text-base max-w-md mx-auto md:mx-0 text-[#374151] list-disc pl-5 leading-snug text-justify">
-                <li>To provide holistic education that nurtures scientific temper and ethical values, grooming the students to be worthy and responsible citizens.</li>
-            </ul>
-        </div>
-    </div>
-
-</div>
-    </div>
-</div>
-      
-
-        <!-- Inserted tis Programme section -->
-    <main class="lg:flex w-full min-h-screen">
-    <!-- Left Hero Section -->
-    <section class="lg:w-5/12 relative h-[500px] lg:h-auto flex-shrink-0">
-        <div class="absolute inset-0 w-full h-full">
-            <img alt="Academic Excellence" class="w-full h-full object-cover" src="./Assets_TIS/bg.jpeg" />
-        </div>
-        <!-- Overlay Card -->
-        <div class="absolute bottom-24 max-w-sm">
-            <div class="bg-[#0A1E3F] p-8 rounded-r-xl shadow-xl">
-                <h1 class="font-serif text-[36px] text-[#F2C94C] mb-3 italic" style="font-family: 'Playfair Display', serif;">Academics</h1>
-                <p class="text-white text-base font-light leading-relaxed">
-                    Broad, balanced, and future-focused education rooted in fostering curiosity and creativity.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Right Content Grid -->
-    <section class="lg:w-7/12 p-2 lg:p-2 flex flex-col gap-3 lg:overflow-y-auto">
-        <!-- Our Philosophy -->
-        <div class="bg-[#eef2f4] rounded-xl p-4 lg:p-6 shadow-sm border border-gray-100">
-            <div>
-                <h2 class="text-3xl font-bold text-[#0A1E3F] mb-3">Our Philosophy</h2>
-                <p class="text-gray-600 leading-relaxed">
-                    At Thakur International School, we offer an ICSE curriculum, ensuring that our students receive a broad, balanced, and future focused education. Our academic philosophy is rooted in fostering curiosity, critical thinking, creativity, and a lifelong love for learning.
-                </p>
-            </div>
-        </div>
-
-        <!-- Curriculum Cards Grid -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
-            <!-- ICSE Curriculum Card -->
-            <article class="bg-[#F5E6D3] rounded-xl p-8 flex flex-col justify-between h-full space-y-6">
-                <div>
-                    <h3 class="text-3xl font-bold text-[#0A1E3F] mb-4">ICSE<br/>Curriculum</h3>
-                    <p class="text-[#0A1E3F] text-sm leading-relaxed mb-6 opacity-80">
-                        We offer an ICSE curriculum that promotes academic rigor and depth, building a strong and confident foundation for higher education. It develops research skills, creativity and independent thinking.
-                    </p>
-                    <ul class="space-y-3">
-                        <li class="flex items-center gap-3">
-                            <div class="flex-shrink-0 w-6 h-6 bg-[#2F80ED] rounded-full flex items-center justify-center">
-                                <span class="material-symbols-outlined text-white text-sm">check</span>
-                            </div>
-                            <span class="font-medium text-[#0A1E3F]">Academic Rigor & Depth</span>
-                        </li>
-                        <li class="flex items-center gap-3">
-                            <div class="flex-shrink-0 w-6 h-6 bg-[#2F80ED] rounded-full flex items-center justify-center">
-                                <span class="material-symbols-outlined text-white text-sm">check</span>
-                            </div>
-                            <span class="font-medium text-[#0A1E3F]">Outstanding Board Results</span>
-                        </li>
-                    </ul>
-                </div>
-            </article>
-
-            <!-- Robotics & Innovation Card -->
-            <article class="bg-[#0A1E3F] rounded-xl p-8 flex flex-col justify-between h-full space-y-6">
-                <div>
-                    <div class="mb-6">
-                        <div class="w-14 h-14 bg-[#F2C94C] rounded-full flex items-center justify-center text-[#0A1E3F]">
-                            <span class="material-symbols-outlined text-3xl">smart_toy</span>
-                        </div>
-                    </div>
-                    <h3 class="text-2xl font-bold text-white mb-3">Robotics</h3>
-                    <p class="text-gray-300 text-sm leading-relaxed mb-6">
-                        Hands on Robotics learning blends coding, logic and innovation through practical exploration. Robotics activities strengthens diagnostic skills, design expertise and real world application.
-                    </p>
-                    <ul class="space-y-3">
-                        <li class="flex items-center gap-3">
-                            <div class="flex-shrink-0 w-6 h-6 bg-[#2F80ED] rounded-full flex items-center justify-center">
-                                <span class="material-symbols-outlined text-white text-sm">check</span>
-                            </div>
-                            <span class="font-medium text-white">Coding & Logic</span>
-                        </li>
-                        <li class="flex items-center gap-3">
-                            <div class="flex-shrink-0 w-6 h-6 bg-[#2F80ED] rounded-full flex items-center justify-center">
-                                <span class="material-symbols-outlined text-white text-sm">check</span>
-                            </div>
-                            <span class="font-medium text-white">Real World Application</span>
-                        </li>
-                    </ul>
-                </div>
-            </article>
-        </div>
-
-        <!-- Learning Methodologies -->
-        <div class="bg-[#efede4] rounded-xl p-8 shadow-sm border border-gray-100">
-            <h3 class="text-xl font-bold text-[#0A1E3F] mb-8">Learning Methodologies</h3>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- Method 1 -->
-                <div class="flex items-center gap-4">
-                    <div class="w-16 h-16 bg-[#F2C94C] rounded-full flex items-center justify-center flex-shrink-0">
-                        <span class="material-symbols-outlined text-3xl text-[#0A1E3F]">lightbulb</span>
-                    </div>
-                    <div>
-                        <h4 class="font-bold text-[#0A1E3F] mb-1">Concept Based Learning</h4>
-                        <p class="text-sm text-gray-500">We encourage students to understand the 'why' and 'how' behind every concept, moving beyond memorization to deep comprehension.</p>
-                    </div>
-                </div>
-                <!-- Method 2 -->
-                <div class="flex items-center gap-4">
-                    <div class="w-16 h-16 bg-[#F2C94C] rounded-full flex items-center justify-center flex-shrink-0">
-                        <span class="material-symbols-outlined text-3xl text-[#0A1E3F]">person</span>
-                    </div>
-                    <div>
-                        <h4 class="font-bold text-[#0A1E3F] mb-1">Personalized Learning</h4>
-                        <p class="text-sm text-gray-500">Every child is unique. Our teaching approach is tailored to individual strengths, needs, and interests.</p>
-                    </div>
-                </div>
-                <!-- Method 3 -->
-                <div class="flex items-center gap-4">
-                    <div class="w-16 h-16 bg-[#F2C94C] rounded-full flex items-center justify-center flex-shrink-0">
-                        <span class="material-symbols-outlined text-3xl text-[#0A1E3F]">science</span>
-                    </div>
-                    <div>
-                        <h4 class="font-bold text-[#0A1E3F] mb-1">Interdisciplinary Learning</h4>
-                        <p class="text-sm text-gray-500">We promote connections across subjects and real-world contexts, helping students develop a holistic perspective.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-</main>
+            </section>
+        </main>
 
 
         <section class="relative min-h-screen flex items-center overflow-hidden">
-    <div class="absolute inset-0 z-0">
-        <img alt="Modern campus environment" class="w-full h-full object-cover object-center opacity-80" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7iyLrxHf-QFRkOkuciBIB8tz6CFTvw-PyxGhE0iI83kstBSwTWeXBZPB6cyOJRHfWYXkXpjcbva7DuM9KMAknLnJKLWeaBwpwnZeVlPaMQ-VoOCu6aftlvnaSLR5IhsRSKvf-siI7FjlcrgfDneldWU9Z9qWwtg7OTEc-PLpKI2KByH7M0T73wY-HWS42JzKE8YMbDIZvuRUDnK3LuFAyo5MOXW5Vn6KZLI8dufhlrR180zocxIdCVj5DvLe-rKgILrjJBfjm3o8" />
-        <div class="absolute inset-0" style="background: linear-gradient(to right, rgba(239, 224, 212, 0.98) 0%, rgba(239, 224, 212, 0.92) 45%, rgba(239, 224, 212, 0.6) 100%);"></div>
-    </div>
-
-    <div class="container mx-auto px-6 lg:px-20 relative z-10 py-20">
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-center">
-            
-            <div class="lg:col-span-5 space-y-8">
-                <div class="space-y-6">
-         
-                    <h1 class="text-6xl md:text-7xl lg:text-8xl font-display font-medium leading-[1.0]" style="color: #112547;">
-                        Who <br />
-                        <span class="italic drop-shadow-sm" style="color: #fcc513;">We Are</span>
-                    </h1>
-                </div>
-
-                <div class="max-w-xl space-y-6">
-                    <p class="text-xl md:text-2xl leading-relaxed font-bold" style="color: #112547;">
-                        Thakur International School proudly stands among the Top Mumbai ICSE Schools with High Success Rate.
-                    </p>
-                    <p class="text-base md:text-lg leading-relaxed font-medium" style="color: rgba(17, 37, 71, 0.85);">
-                        The school focuses on overall development, ensuring students have a perfect balance of academics, co-curricular activities, and life skills. Every year, our skilled teachers help students achieve remarkable results in the ICSE board examinations.
-                    </p>
-                </div>
-
-                <div class="pt-4">
-                    <a href="#" class="inline-flex items-center gap-3 px-10 py-4 rounded-full text-white font-bold text-lg transition-all duration-300 hover:scale-105 shadow-lg" 
-                       style="background-color: #3d6ef1; box-shadow: 0 10px 20px -5px rgba(61, 110, 241, 0.4);">
-                        Enquire Now
-                        <span class="material-symbols-outlined">arrow_forward</span>
-                    </a>
+            <div class="absolute inset-0 z-0">
+                <img alt="Modern campus environment" class="w-full h-full object-cover object-center opacity-80"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7iyLrxHf-QFRkOkuciBIB8tz6CFTvw-PyxGhE0iI83kstBSwTWeXBZPB6cyOJRHfWYXkXpjcbva7DuM9KMAknLnJKLWeaBwpwnZeVlPaMQ-VoOCu6aftlvnaSLR5IhsRSKvf-siI7FjlcrgfDneldWU9Z9qWwtg7OTEc-PLpKI2KByH7M0T73wY-HWS42JzKE8YMbDIZvuRUDnK3LuFAyo5MOXW5Vn6KZLI8dufhlrR180zocxIdCVj5DvLe-rKgILrjJBfjm3o8" />
+                <div class="absolute inset-0"
+                    style="background: linear-gradient(to right, rgba(239, 224, 212, 0.98) 0%, rgba(239, 224, 212, 0.92) 45%, rgba(239, 224, 212, 0.6) 100%);">
                 </div>
             </div>
 
-            <div class="lg:col-span-7">
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:gap-8 max-w-2xl ml-auto">
-                    
-                    <div class="p-8 rounded-[2rem] flex flex-col items-start gap-4 transition-all duration-300 border border-white/50" 
-                         style="background: rgba(255, 255, 255, 0.4); backdrop-filter: blur(12px); box-shadow: 0 20px 40px rgba(17, 37, 71, 0.05);">
-                        <div class="w-14 h-14 rounded-2xl flex items-center justify-center shadow-md" style="background-color: #ffffff;">
-                            <span class="material-symbols-outlined text-3xl" style="color: #3d6ef1;">school</span>
+            <div class="container mx-auto px-6 lg:px-20 relative z-10 py-20">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-center">
+
+                    <div class="lg:col-span-5 space-y-8">
+                        <div class="space-y-6">
+
+                            <h1 class="text-6xl md:text-7xl lg:text-8xl font-display font-medium leading-[1.0]"
+                                style="color: #112547;">
+                                Who <br />
+                                <span class="italic drop-shadow-sm" style="color: #fcc513;">We Are</span>
+                            </h1>
                         </div>
-                        <div>
-                            <h3 class="text-xl font-bold mb-2" style="color: #112547;">Academic Distinction</h3>
-                            <p class="text-sm font-medium leading-relaxed" style="color: rgba(17, 37, 71, 0.75);">Future-driven schooling that propels students toward excellence.</p>
+
+                        <div class="max-w-xl space-y-6">
+                            <p class="text-xl md:text-2xl leading-relaxed font-bold" style="color: #112547;">
+                                Thakur International School proudly stands among the Top Mumbai ICSE Schools with High
+                                Success Rate.
+                            </p>
+                            <p class="text-base md:text-lg leading-relaxed font-medium"
+                                style="color: rgba(17, 37, 71, 0.85);">
+                                The school focuses on overall development, ensuring students have a perfect balance of
+                                academics, co-curricular activities, and life skills. Every year, our skilled teachers
+                                help students achieve remarkable results in the ICSE board examinations.
+                            </p>
+                        </div>
+
+                        <div class="pt-4">
+                            <a href="#"
+                                class="inline-flex items-center gap-3 px-10 py-4 rounded-full text-white font-bold text-lg transition-all duration-300 hover:scale-105 shadow-lg"
+                                style="background-color: #3d6ef1; box-shadow: 0 10px 20px -5px rgba(61, 110, 241, 0.4);">
+                                Enquire Now
+                                <span class="material-symbols-outlined">arrow_forward</span>
+                            </a>
                         </div>
                     </div>
 
-                    <div class="p-8 rounded-[2rem] flex flex-col items-start gap-4 sm:translate-y-12 transition-all duration-300 border border-white/50" 
-                         style="background: rgba(255, 255, 255, 0.4); backdrop-filter: blur(12px); box-shadow: 0 20px 40px rgba(17, 37, 71, 0.05);">
-                        <div class="w-14 h-14 rounded-2xl flex items-center justify-center shadow-md" style="background-color: #ffffff;">
-                            <span class="material-symbols-outlined text-3xl" style="color: #fcc513;">volunteer_activism</span>
-                        </div>
-                        <div>
-                            <h3 class="text-xl font-bold mb-2" style="color: #112547;">Personalized Attention</h3>
-                            <p class="text-sm font-medium leading-relaxed" style="color: rgba(17, 37, 71, 0.75);">Motivating environments that support each child's unique potential.</p>
+                    <div class="lg:col-span-7">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:gap-8 max-w-2xl ml-auto">
+
+                            <div class="p-8 rounded-[2rem] flex flex-col items-start gap-4 transition-all duration-300 border border-white/50"
+                                style="background: rgba(255, 255, 255, 0.4); backdrop-filter: blur(12px); box-shadow: 0 20px 40px rgba(17, 37, 71, 0.05);">
+                                <div class="w-14 h-14 rounded-2xl flex items-center justify-center shadow-md"
+                                    style="background-color: #ffffff;">
+                                    <span class="material-symbols-outlined text-3xl"
+                                        style="color: #3d6ef1;">school</span>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold mb-2" style="color: #112547;">Academic Distinction</h3>
+                                    <p class="text-sm font-medium leading-relaxed"
+                                        style="color: rgba(17, 37, 71, 0.75);">Future-driven schooling that propels
+                                        students toward excellence.</p>
+                                </div>
+                            </div>
+
+                            <div class="p-8 rounded-[2rem] flex flex-col items-start gap-4 sm:translate-y-12 transition-all duration-300 border border-white/50"
+                                style="background: rgba(255, 255, 255, 0.4); backdrop-filter: blur(12px); box-shadow: 0 20px 40px rgba(17, 37, 71, 0.05);">
+                                <div class="w-14 h-14 rounded-2xl flex items-center justify-center shadow-md"
+                                    style="background-color: #ffffff;">
+                                    <span class="material-symbols-outlined text-3xl"
+                                        style="color: #fcc513;">volunteer_activism</span>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold mb-2" style="color: #112547;">Personalized Attention
+                                    </h3>
+                                    <p class="text-sm font-medium leading-relaxed"
+                                        style="color: rgba(17, 37, 71, 0.75);">Motivating environments that support each
+                                        child's unique potential.</p>
+                                </div>
+                            </div>
+
+                            <div class="p-8 rounded-[2rem] flex flex-col items-start gap-4 transition-all duration-300 border border-white/50"
+                                style="background: rgba(255, 255, 255, 0.4); backdrop-filter: blur(12px); box-shadow: 0 20px 40px rgba(17, 37, 71, 0.05);">
+                                <div class="w-14 h-14 rounded-2xl flex items-center justify-center shadow-md"
+                                    style="background-color: #ffffff;">
+                                    <span class="material-symbols-outlined text-3xl"
+                                        style="color: #3d6ef1;">psychology_alt</span>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold mb-2" style="color: #112547;">Modern Methods</h3>
+                                    <p class="text-sm font-medium leading-relaxed"
+                                        style="color: rgba(17, 37, 71, 0.75);">Success driven by cutting-edge teaching
+                                        and character building.</p>
+                                </div>
+                            </div>
+
+                            <div class="p-8 rounded-[2rem] flex flex-col items-start gap-4 sm:translate-y-12 transition-all duration-300 border border-white/50"
+                                style="background: rgba(255, 255, 255, 0.4); backdrop-filter: blur(12px); box-shadow: 0 20px 40px rgba(17, 37, 71, 0.05);">
+                                <div class="w-14 h-14 rounded-2xl flex items-center justify-center shadow-md"
+                                    style="background-color: #ffffff;">
+                                    <span class="material-symbols-outlined text-3xl"
+                                        style="color: #fcc513;">auto_graph</span>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold mb-2" style="color: #112547;">High Success Rate</h3>
+                                    <p class="text-sm font-medium leading-relaxed"
+                                        style="color: rgba(17, 37, 71, 0.75);">Remarkable board results and a
+                                        prestigious position in Mumbai.</p>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
-
-                    <div class="p-8 rounded-[2rem] flex flex-col items-start gap-4 transition-all duration-300 border border-white/50" 
-                         style="background: rgba(255, 255, 255, 0.4); backdrop-filter: blur(12px); box-shadow: 0 20px 40px rgba(17, 37, 71, 0.05);">
-                        <div class="w-14 h-14 rounded-2xl flex items-center justify-center shadow-md" style="background-color: #ffffff;">
-                            <span class="material-symbols-outlined text-3xl" style="color: #3d6ef1;">psychology_alt</span>
-                        </div>
-                        <div>
-                            <h3 class="text-xl font-bold mb-2" style="color: #112547;">Modern Methods</h3>
-                            <p class="text-sm font-medium leading-relaxed" style="color: rgba(17, 37, 71, 0.75);">Success driven by cutting-edge teaching and character building.</p>
-                        </div>
-                    </div>
-
-                    <div class="p-8 rounded-[2rem] flex flex-col items-start gap-4 sm:translate-y-12 transition-all duration-300 border border-white/50" 
-                         style="background: rgba(255, 255, 255, 0.4); backdrop-filter: blur(12px); box-shadow: 0 20px 40px rgba(17, 37, 71, 0.05);">
-                        <div class="w-14 h-14 rounded-2xl flex items-center justify-center shadow-md" style="background-color: #ffffff;">
-                            <span class="material-symbols-outlined text-3xl" style="color: #fcc513;">auto_graph</span>
-                        </div>
-                        <div>
-                            <h3 class="text-xl font-bold mb-2" style="color: #112547;">High Success Rate</h3>
-                            <p class="text-sm font-medium leading-relaxed" style="color: rgba(17, 37, 71, 0.75);">Remarkable board results and a prestigious position in Mumbai.</p>
-                        </div>
-                    </div>
-
                 </div>
             </div>
-        </div>
-    </div>
-</section>
+        </section>
 
         <!-- Our Campus Section -->
         <style>
-        .campus-gallery{
-            display:flex;
-            height:520px;
-            overflow:hidden;
-            border-radius:12px;
-        }
-
-        .campus-item{
-            flex:0.6;
-            position:relative;
-            transition:flex .6s ease;
-            cursor:pointer;
-            overflow:hidden;
-        }
-
-        .campus-item.intro-card{
-            flex:2;
-        }
-
-        .campus-item img{
-            width:100%;
-            height:100%;
-            object-fit:cover;
-            transition:transform .8s ease;
-        }
-
-        .campus-item:hover img{
-            transform:scale(1.1);
-        }
-
-        .campus-gallery:hover .campus-item{
-            flex:.6;
-        }
-
-        .campus-gallery:hover .campus-item.intro-card{
-            flex:1;
-        }
-
-        .campus-gallery .campus-item:hover{
-            flex:3;
-        }
-
-        .campus-gallery .campus-item.intro-card:hover{
-            flex:2;
-        }
-
-        .campus-overlay{
-            position:absolute;
-            bottom:0;
-            left:0;
-            right:0;
-            padding:40px;
-            background:linear-gradient(to top,rgba(0,0,0,.9),rgba(0,0,0,.6),transparent);
-            color:white;
-            transform:translateY(60px);
-            opacity:0;
-            transition:all .4s ease;
-        }
-
-        .campus-item:hover .campus-overlay{
-            transform:translateY(0);
-            opacity:1;
-        }
-
-        .campus-overlay h3{
-            font-size:24px;
-            margin-bottom:10px;
-        }
-
-        .campus-overlay p{
-            font-size:14px;
-            line-height:1.6;
-            opacity:.85;
-        }
-
-        .intro-card{
-            display:flex;
-            flex-direction:column;
-            justify-content:center;
-            align-items:center;
-            text-align:center;
-            padding:40px;
-            background:#1e3a8a;
-            color:white;
-            overflow-y:auto;
-        }
-
-        .intro-card h2{
-            font-size:48px;
-            font-weight:700;
-            margin-bottom:20px;
-        }
-
-        .intro-card p{
-            font-size:13px;
-            opacity:.9;
-            line-height:1.5;
-            margin-bottom:15px;
-        }
-
-        .intro-card h4{
-            font-size:16px;
-            font-weight:600;
-            margin:15px 0 8px 0;
-            color:#fcc513;
-        }
-
-        @media(max-width:768px){
-            .campus-gallery{
-                flex-direction:column;
-                height:auto;
+            .campus-gallery {
+                display: flex;
+                height: 520px;
+                overflow: hidden;
+                border-radius: 12px;
             }
 
-            .campus-item{
-                height:320px;
+            .campus-item {
+                flex: 0.6;
+                position: relative;
+                transition: flex .6s ease;
+                cursor: pointer;
+                overflow: hidden;
             }
 
-            .campus-item.intro-card{
-                height:auto;
-                min-height:400px;
+            .campus-item.intro-card {
+                flex: 2;
             }
 
-            .campus-gallery:hover .campus-item{
-                flex:1;
+            .campus-item img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: transform .8s ease;
             }
-        }
+
+            .campus-item:hover img {
+                transform: scale(1.1);
+            }
+
+            .campus-gallery:hover .campus-item {
+                flex: .6;
+            }
+
+            .campus-gallery:hover .campus-item.intro-card {
+                flex: 1;
+            }
+
+            .campus-gallery .campus-item:hover {
+                flex: 3;
+            }
+
+            .campus-gallery .campus-item.intro-card:hover {
+                flex: 2;
+            }
+
+            .campus-overlay {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                padding: 40px;
+                background: linear-gradient(to top, rgba(0, 0, 0, .9), rgba(0, 0, 0, .6), transparent);
+                color: white;
+                transform: translateY(60px);
+                opacity: 0;
+                transition: all .4s ease;
+            }
+
+            .campus-item:hover .campus-overlay {
+                transform: translateY(0);
+                opacity: 1;
+            }
+
+            .campus-overlay h3 {
+                font-size: 24px;
+                margin-bottom: 10px;
+            }
+
+            .campus-overlay p {
+                font-size: 14px;
+                line-height: 1.6;
+                opacity: .85;
+            }
+
+            .intro-card {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                padding: 40px;
+                background: #1e3a8a;
+                color: white;
+                overflow-y: auto;
+            }
+
+            .intro-card h2 {
+                font-size: 48px;
+                font-weight: 700;
+                margin-bottom: 20px;
+            }
+
+            .intro-card p {
+                font-size: 13px;
+                opacity: .9;
+                line-height: 1.5;
+                margin-bottom: 15px;
+            }
+
+            .intro-card h4 {
+                font-size: 16px;
+                font-weight: 600;
+                margin: 15px 0 8px 0;
+                color: #fcc513;
+            }
+
+            @media(max-width:768px) {
+                .campus-gallery {
+                    flex-direction: column;
+                    height: auto;
+                }
+
+                .campus-item {
+                    height: 320px;
+                }
+
+                .campus-item.intro-card {
+                    height: auto;
+                    min-height: 400px;
+                }
+
+                .campus-gallery:hover .campus-item {
+                    flex: 1;
+                }
+            }
         </style>
 
-      
-        <!-- End Our Campus Section -->
 
-        <div class="block md:hidden max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-
-
-            <div class="text-center mb-10">
-                <h2 class="text-3xl font-bold text-gray-900 mb-4">
-                    Our <span class="text-[#84cc16]">Recruiters</span>
-                </h2>
-
-                <div class="mt-4 flex justify-center">
-                    <div class="h-1.5 w-24 bg-[#112547] rounded-full"></div>
-                </div>
-
-                <p class="mt-6 max-w-4xl mx-auto text-base text-gray-600 text-justify">
-                    We are proud to partner with a wide range of leading companies who trust our talent.
-                </p>
-
-            </div>
-
-            <!-- MARQUEE SECTION -->
-            <div
-                class="group relative overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_10%,white_90%,transparent)] w-screen left-[calc(-50vw+50%)] border-y border-gray-200 bg-white py-6">
-
-                <div class="flex animate-scroll w-max">
-
-                    <!-- FIRST LOOP -->
-                    <div class="flex w-max items-center">
-                        <!-- LOGOS -->
-                        <!-- h-12 + mx-6 for spacing -->
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 3@1572x.webp"
-                            alt="Asset 3" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 4@1572x.webp"
-                            alt="Asset 4" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 6@1572x.webp"
-                            alt="Asset 6" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 5@1572x.webp"
-                            alt="Asset 5" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 7@1572x.webp"
-                            alt="Asset 7" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 8@1572x.webp"
-                            alt="Asset 8" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 9@1572x.webp"
-                            alt="Asset 9" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 10@1572x.webp"
-                            alt="Asset 10" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 11@1572x.webp"
-                            alt="Asset 11" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 12@1572x.webp"
-                            alt="Asset 12" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 13@1572x.webp"
-                            alt="Asset 13" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 14@1572x.webp"
-                            alt="Asset 14" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 15@1572x.webp"
-                            alt="Asset 15" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 16@1572x.webp"
-                            alt="Asset 16" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 17@1572x.webp"
-                            alt="Asset 17" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 18@1572x.webp"
-                            alt="Asset 18" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 19@1572x.webp"
-                            alt="Asset 19" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 20@1572x.webp"
-                            alt="Asset 20" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 21@1572x.webp"
-                            alt="Asset 21" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 22@1572x.webp"
-                            alt="Asset 22" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 23@1572x.webp"
-                            alt="Asset 23" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 24@1572x.webp"
-                            alt="Asset 24" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 25@1572x.webp"
-                            alt="Asset 25" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 26@1572x.webp"
-                            alt="Asset 26" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 27@1572x.webp"
-                            alt="Asset 27" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 28@1572x.webp"
-                            alt="Asset 28" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 29@1572x.webp"
-                            alt="Asset 29" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 30@1572x.webp"
-                            alt="Asset 30" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 31@1572x.webp"
-                            alt="Asset 31" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 32@1572x.webp"
-                            alt="Asset 32" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 33@1572x.webp"
-                            alt="Asset 33" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 34@1572x.webp"
-                            alt="Asset 34" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 35@1572x.webp"
-                            alt="Asset 35" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 36@1572x.webp"
-                            alt="Asset 36" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 37@1572x.webp"
-                            alt="Asset 37" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 38@1572x.webp"
-                            alt="Asset 38" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 39@1572x.webp"
-                            alt="Asset 39" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 40@1572x.webp"
-                            alt="Asset 40" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 41@1572x.webp"
-                            alt="Asset 41" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 42@1572x.webp"
-                            alt="Asset 42" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 43@1572x.webp"
-                            alt="Asset 43" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 44@1572x.webp"
-                            alt="Asset 44" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 45@1572x.webp"
-                            alt="Asset 45" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 46@1572x.webp"
-                            alt="Asset 46" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 47@1572x.webp"
-                            alt="Asset 47" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 48@1572x.webp"
-                            alt="Asset 48" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 49@1572x.webp"
-                            alt="Asset 49" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 50@1572x.webp"
-                            alt="Asset 50" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 51@1572x.webp"
-                            alt="Asset 51" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 52@1572x.webp"
-                            alt="Asset 52" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 53@1572x.webp"
-                            alt="Asset 53" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 54@1572x.webp"
-                            alt="Asset 54" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 55@1572x.webp"
-                            alt="Asset 55" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 56@1572x.webp"
-                            alt="Asset 56" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 57@1572x.webp"
-                            alt="Asset 57" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 58@1572x.webp"
-                            alt="Asset 58" />
-                        <img class="h-5 mx-6 object-contain" src="./Images/placements/Asset 59@1572x.webp"
-                            alt="Asset 59" />
-                    </div>
-                    <!-- SECOND LOOP -->
-                    <div aria-hidden="true" class="flex w-max items-center">
-                        <!-- duplicate set -->
-                        <!-- (KEEP EXACTLY AS YOU POSTED) -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- ================= END MOBILE ================= -->
-
-        <section class="hidden md:block py-8 sm:py-12 bg-white dark:bg-gray-900">
-            <div class="w-[90%] mx-auto bg-transparent p-0">
-
-
-
-
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
-                    <div class="flex flex-col justify-center items-start text-left">
-
-                        <!-- Heading -->
-                        <h1 class="text-3xl md:text-5xl font-bold text-gray-900 leading-tight">
-                            Our <span class="text-primary">Recruiters</span>
-                        </h1>
-
-                        <!-- Accent underline -->
-                        <div class="mt-3 h-1.5 w-20 bg-[#112547] rounded-full"></div>
-
-                        <!-- Description -->
-                        <p class="mt-6 max-w-3xl text-base md:text-lg text-gray-600 leading-relaxed">
-                            We are proud to partner with a diverse range of leading companies who place their trust in
-                            our talent. By leveraging deep industry insight, rigorous assessment, and a bespoke
-                            approach, we facilitate connections that drive organisational success and empower
-                            individual growth.
-                        </p>
-
- 
-
-                        <!-- CTA -->
-
-                    </div>
-
-
-                    <!-- Brochure Modal -->
-                    <div id="brochureModal"
-                        class="fixed inset-0 z-[9999] hidden items-center justify-center bg-black/60 backdrop-blur-sm">
-                        <div class="relative w-full max-w-sm bg-white rounded-xl shadow-2xl p-6">
-
-                            <h2 class="mb-5 text-center text-xl font-bold">
-                                Tell us your dream company
-                            </h2>
-
-                            <form class="space-y-4">
-                                <input type="text" placeholder="Full Name" class="w-full px-3 py-2.5 rounded-lg border"
-                                    required />
-
-                                <input type="email" placeholder="Email" class="w-full px-3 py-2.5 rounded-lg border"
-                                    required />
-
-                                <input type="tel" placeholder="Company name"
-                                    class="w-full px-3 py-2.5 rounded-lg border" />
-
-                                <button type="submit"
-                                    class="w-full py-2.5 bg-primary text-white rounded-lg font-medium">
-                                    Submit Details
-                                </button>
-
-                                <button type="button" id="closeBrochureForm"
-                                    class="w-full py-2.5 bg-pink text-white rounded-lg font-medium">
-                                    Close
-                                </button>
-                            </form>
-                        </div>
-
-                    </div>
-
-                    <script>
-                        document.addEventListener("DOMContentLoaded", function () {
-                            const openBtn = document.getElementById("openBrochureForm");
-                            const modal = document.getElementById("brochureModal");
-                            const closeBtn = document.getElementById("closeBrochureForm");
-
-                            if (!openBtn || !modal || !closeBtn) {
-                                console.error("Modal elements not found");
-                                return;
-                            }
-
-                            openBtn.addEventListener("click", function () {
-                                modal.classList.remove("hidden");
-                                modal.classList.add("flex");
-                            });
-
-                            closeBtn.addEventListener("click", function () {
-                                modal.classList.add("hidden");
-                                modal.classList.remove("flex");
-                            });
-
-                            modal.addEventListener("click", function (e) {
-                                if (e.target === modal) {
-                                    modal.classList.add("hidden");
-                                    modal.classList.remove("flex");
-                                }
-                            });
-                        });
-                    </script>
-
-
-
-                    <!-- CSS (put in <head> or your stylesheet) -->
-                    <style>
-                        .recruiter-grid {
-                            display: grid;
-                            grid-template-columns: repeat(3, 1fr);
-                            gap: 1rem;
-                        }
-
-                        /* column container */
-                        .col {
-                            overflow: hidden;
-                            height: 520px;
-                            /* visible column height — adjust to taste */
-                            display: flex;
-                            align-items: flex-start;
-                        }
-
-                        /* track that will translate */
-                        .scroll-track {
-                            display: flex;
-                            flex-direction: column;
-                            gap: 1rem;
-                        }
-
-                        /* each card (kept from your existing style) */
-                        .card {
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            padding: 1rem;
-                            background: white;
-                            border-radius: 12px;
-                            box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.05);
-                            height: 208px;
-                            /* h-52 equivalent (208px) */
-                            transition: transform .25s;
-                        }
-
-                        /* make images responsive inside cards */
-                        .card img {
-                            max-height: 64px;
-                            width: auto;
-                        }
-
-                        /* animation control via CSS variable */
-                        .scroll-track {
-                            --speed: 18s;
-                        }
-
-                        /* default: full loop duration */
-
-                        /* upward movement */
-                        .col.up .scroll-track {
-                            animation: scrollUp var(--speed) linear infinite;
-                        }
-
-                        /* downward movement */
-                        .col.down .scroll-track {
-                            animation: scrollDown var(--speed) linear infinite;
-                        }
-
-                        /* keyframes assume the track is duplicated (see HTML/JS) */
-                        @keyframes scrollUp {
-                            0% {
-                                transform: translateY(0);
-                            }
-
-                            100% {
-                                transform: translateY(-50%);
-                            }
-
-                            /* move up by half (one full set) */
-                        }
-
-                        @keyframes scrollDown {
-                            0% {
-                                transform: translateY(-50%);
-                            }
-
-                            /* start offset so downward looks continuous */
-                            100% {
-                                transform: translateY(0);
-                            }
-                        }
-
-                        /* pause on hover */
-                        .col:hover .scroll-track {
-                            animation-play-state: paused;
-                        }
-
-                        /* mobile: disable animation for perf */
-                        @media (max-width: 767px) {
-                            .col .scroll-track {
-                                animation: none !important;
-                                transform: none !important;
-                            }
-
-                            .col {
-                                height: auto;
-                            }
-                        }
-
-                        /* small visual tweak to match your existing classes */
-                        .rounded-xl {
-                            border-radius: 12px;
-                        }
-
-                        @keyframes fadeUp {
-                            from {
-                                opacity: 0;
-                                transform: translateY(12px);
-                            }
-
-                            to {
-                                opacity: 1;
-                                transform: translateY(0);
-                            }
-                        }
-
-                        .animate-fadeUp {
-                            animation: fadeUp 0.6s ease-out forwards;
-                        }
-
-                        /* existing fade-up stays the same */
-                        @keyframes fadeUp {
-                            from {
-                                opacity: 0;
-                                transform: translateY(12px);
-                            }
-
-                            to {
-                                opacity: 1;
-                                transform: translateY(0);
-                            }
-                        }
-
-                        .animate-fadeUp {
-                            animation: fadeUp 0.6s ease-out forwards;
-                        }
-
-                        /* highlight sweep */
-                        .highlight-item::before {
-                            content: "";
-                            position: absolute;
-                            inset: 0;
-                            background: linear-gradient(90deg,
-                                    transparent,
-                                    rgba(157, 10, 79, 0.12),
-                                    transparent);
-                            transform: translateX(-100%);
-                            animation: highlightSweep 0.8s ease-out forwards;
-                            animation-delay: inherit;
-                        }
-
-                        @keyframes highlightSweep {
-                            to {
-                                transform: translateX(100%);
-                            }
-                        }
-
-                        /* Continuous highlight sweep */
-                        .highlight-item::before {
-                            content: "";
-                            position: absolute;
-                            inset: 0;
-                            background: linear-gradient(90deg,
-                                    transparent,
-                                    rgba(157, 10, 79, 0.35),
-                                    transparent);
-
-                            transform: translateX(-100%);
-                            animation: highlightLoop 6s ease-in-out infinite;
-                            animation-delay: inherit;
-                        }
-
-                        @keyframes highlightLoop {
-                            0% {
-                                transform: translateX(-100%);
-                            }
-
-                            20% {
-                                transform: translateX(100%);
-                            }
-
-                            100% {
-                                transform: translateX(100%);
-                            }
-                        }
-
-                        /* From Uiverse.io by alexmaracinaru */
-                        .cta {
-                            margin-top: 2rem;
-                            display: inline-flex;
-                            align-items: center;
-                            gap: 12px;
-                            font-weight: 600;
-                            font-size: 0.95rem;
-                            letter-spacing: 0.18em;
-                            text-transform: uppercase;
-                            color: rgb(157 10 79 / var(--tw-text-opacity, 1));
-                            /* maroon */
-                            position: relative;
-                            padding-bottom: 6px;
-                            cursor: pointer;
-                            transition: color 0.3s ease;
-                        }
-
-                        /* underline */
-                        .cta::after {
-                            content: "";
-                            position: absolute;
-                            left: 0;
-                            bottom: 0;
-                            height: 2px;
-                            width: 100%;
-                            background-color: rgb(157 10 79 / var(--tw-text-opacity, 1));
-                            /* maroon */
-                            transform: scaleX(0.35);
-                            transform-origin: left;
-                            transition: transform 0.35s ease, background-color 0.35s ease;
-                        }
-
-                        /* arrow */
-                        .cta-arrow {
-                            transition: transform 0.35s ease;
-                        }
-
-                        /* hover */
-                        .cta:hover {
-                            color: rgb(132 204 22 / var(--tw-bg-opacity, 1));
-                            /* green */
-                        }
-
-                        .cta:hover::after {
-                            transform: scaleX(1);
-                            background-color: rgb(132 204 22 / var(--tw-bg-opacity, 1));
-                            /* green */
-                        }
-
-                        .cta:hover .cta-arrow {
-                            transform: translateX(6px);
-                        }
-
-                        /* active tap feedback */
-                        .cta:active svg {
-                            transform: scale(0.9);
-                        }
-                    </style>
-
-                    <!-- HTML: 3 columns. Put your logos inside the first .scroll-track (only once if you use the JS below). -->
-                    <!-- style: put in <head> or your CSS file -->
-                    <!-- Tailwind + small CSS for keyframes & animation rules (keep this in <head>) -->
-                    <style>
-                        /* keep your exact float animations unchanged */
-                        .col-up .card,
-                        .col-down .card,
-                        .col-up2 .card {
-                            animation: none !important;
-                            transform: none !important;
-                        }
-
-                        /* Scroll track animations (container-level) */
-                        .col-up .scroll-track {
-                            animation: scrollUp 20s linear infinite;
-                        }
-
-                        .col-down .scroll-track {
-                            animation: scrollDown 20s linear infinite;
-                        }
-
-                        .col-up2 .scroll-track {
-                            animation: scrollUp 22s linear infinite;
-                            animation-delay: -5s;
-                            /* stagger start for visual variety */
-                        }
-
-                        /* Smooth upward scroll */
-                        @keyframes scrollUp {
-                            0% {
-                                transform: translateY(0);
-                            }
-
-                            100% {
-                                transform: translateY(-50%);
-                            }
-                        }
-
-                        /* Smooth downward scroll */
-                        @keyframes scrollDown {
-                            0% {
-                                transform: translateY(-50%);
-                            }
-
-                            100% {
-                                transform: translateY(0);
-                            }
-                        }
-
-                        /* Pause on hover */
-                        .col:hover .scroll-track {
-                            animation-play-state: paused;
-                        }
-
-                        /* Mobile: disable animation */
-                        @media (max-width: 767px) {
-
-                            .col-up .scroll-track,
-                            .col-down .scroll-track,
-                            .col-up2 .scroll-track {
-                                animation: none !important;
-                                transform: none !important;
-                            }
-
-                            .col {
-                                height: auto;
-                            }
-                        }
-
-                        .cta {
-                            display: inline-flex;
-                            align-items: center;
-                            gap: 12px;
-                            background: transparent;
-                            border: none;
-                            cursor: pointer;
-                            padding: 0;
-
-                        }
-
-                        .cta-text {
-                            font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-                            font-size: 14px;
-                            font-weight: 600;
-                            letter-spacing: 0.12em;
-                            text-transform: uppercase;
-                            position: relative;
-                            padding-bottom: 6px;
-                            color: rgb(157 10 79 / var(--tw-text-opacity, 1));
-                            /* maroon */
-                            transition: color 0.3s ease;
-                        }
-
-                        /* underline */
-                        .cta-text::after {
-                            content: "";
-                            position: absolute;
-                            left: 0;
-                            bottom: 0;
-                            width: 100%;
-                            height: 2px;
-                            background-color: currentColor;
-                            transform: scaleX(0.4);
-                            transform-origin: left;
-                            transition: transform 0.3s ease;
-                        }
-
-                        /* arrow */
-                        .cta-arrow {
-                            color: rgb(157 10 79 / var(--tw-text-opacity, 1));
-                            /* maroon */
-                            transition: transform 0.3s ease, color 0.3s ease;
-                        }
-
-                        /* hover effects */
-                        .cta:hover .cta-text {
-                            color: rgb(132 204 22 / var(--tw-bg-opacity, 1));
-                            /* green */
-                        }
-
-                        .cta:hover .cta-text::after {
-                            transform: scaleX(1);
-                        }
-
-                        .cta:hover .cta-arrow {
-                            transform: translateX(6px);
-                            color: rgb(132 204 22 / var(--tw-bg-opacity, 1));
-                            /* green */
-                        }
-                    </style>
-
-                    <!-- HTML (Tailwind classes only for layout/visuals) -->
-                    <div>
-                        <div class="recruiter-inner w-[92%] max-w-[1180px] mx-auto relative z-10">
-                            <div
-                                class="recruiter-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6 items-start">
-
-                                <!-- COLUMN 1 (up) -->
-                                <!-- 3-column split: 20 / 20 / 19 (Assets 1 → 59) -->
-                                <div class="col col-up overflow-hidden h-[520px] flex items-start">
-                                    <div class="scroll-track flex flex-col gap-3 will-change-transform"
-                                        data-duplicate="auto">
-                                        <!-- Column 1: items 1..20 -->
-
-
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 3@1572x.webp" alt="Asset 3"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 4@1572x.webp" alt="Asset 4"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 5@1572x.webp" alt="Asset 5"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 6@1572x.webp" alt="Asset 6"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 7@1572x.webp" alt="Asset 7"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 8@1572x.webp" alt="Asset 8"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 9@1572x.webp" alt="Asset 9"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 10@1572x.webp" alt="Asset 10"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 11@1572x.webp" alt="Asset 11"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 12@1572x.webp" alt="Asset 12"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 13@1572x.webp" alt="Asset 13"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 14@1572x.webp" alt="Asset 14"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 15@1572x.webp" alt="Asset 15"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 16@1572x.webp" alt="Asset 16"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 17@1572x.webp" alt="Asset 17"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 18@1572x.webp" alt="Asset 18"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 19@1572x.webp" alt="Asset 19"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 20@1572x.webp" alt="Asset 20"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col col-down overflow-hidden h-[520px] flex items-start">
-                                    <div class="scroll-track flex flex-col gap-3 will-change-transform"
-                                        data-duplicate="auto">
-                                        <!-- Column 2: items 21..40 -->
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 21@1572x.webp" alt="Asset 21"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 22@1572x.webp" alt="Asset 22"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 23@1572x.webp" alt="Asset 23"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 24@1572x.webp" alt="Asset 24"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 25@1572x.webp" alt="Asset 25"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 26@1572x.webp" alt="Asset 26"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 27@1572x.webp" alt="Asset 27"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 28@1572x.webp" alt="Asset 28"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 29@1572x.webp" alt="Asset 29"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 30@1572x.webp" alt="Asset 30"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 31@1572x.webp" alt="Asset 31"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 32@1572x.webp" alt="Asset 32"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 33@1572x.webp" alt="Asset 33"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 34@1572x.webp" alt="Asset 34"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 35@1572x.webp" alt="Asset 35"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 36@1572x.webp" alt="Asset 36"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 37@1572x.webp" alt="Asset 37"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 38@1572x.webp" alt="Asset 38"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 39@1572x.webp" alt="Asset 39"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 40@1572x.webp" alt="Asset 40"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col col-up2 overflow-hidden h-[520px] flex items-start">
-                                    <div class="scroll-track flex flex-col gap-3 will-change-transform"
-                                        data-duplicate="auto">
-                                        <!-- Column 3: items 41..59 (19 items) -->
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 41@1572x.webp" alt="Asset 41"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 42@1572x.webp" alt="Asset 42"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 43@1572x.webp" alt="Asset 43"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 44@1572x.webp" alt="Asset 44"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 45@1572x.webp" alt="Asset 45"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 46@1572x.webp" alt="Asset 46"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 47@1572x.webp" alt="Asset 47"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 48@1572x.webp" alt="Asset 48"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 49@1572x.webp" alt="Asset 49"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 50@1572x.webp" alt="Asset 50"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 51@1572x.webp" alt="Asset 51"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 52@1572x.webp" alt="Asset 52"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 53@1572x.webp" alt="Asset 53"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 54@1572x.webp" alt="Asset 54"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 55@1572x.webp" alt="Asset 55"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 56@1572x.webp" alt="Asset 56"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 57@1572x.webp" alt="Asset 57"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 58@1572x.webp" alt="Asset 58"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                        <div
-                                            class="card max-w-[220px] w-full mx-auto flex justify-center items-center p-4 bg-white rounded-xl border-l border-r border-gray-100 shadow-[0_8px_20px_rgba(0,0,0,0.06)] shadow-gray-200/40 h-[208px]">
-                                            <img src="./Images/placements/Asset 59@1572x.webp" alt="Asset 59"
-                                                class="max-h-14 w-auto block" />
-                                        </div>
-                                    </div>
-                                </div>
+     
 
 
 
@@ -2249,9 +1308,6 @@
                     </script>
 
 
-                    <!-- updated grid: add col-up / col-down / col-up2 classes and card class on each card -->
-                    <!-- keep your CSS block exactly as-is above -->
-
 
 
                 </div>
@@ -2260,153 +1316,144 @@
         </section>
 
 
-        <!-- Styles for carousel items (put in your CSS file or inside <style>) -->
-        <style>
-            .carousel-item {
-                position: absolute;
-                inset: 0;
-                background-size: cover;
-                background-position: center;
-                background-repeat: no-repeat;
-                opacity: 0;
-                transition: opacity 700ms ease;
-                z-index: 0;
-            }
+   
 
-            .carousel-item.active {
-                opacity: 1;
-                z-index: 0;
-            }
-
-            /* small helper so text remains readable on tiny screens */
-            @keyframes scroll {
-                0% {
-                    transform: translateX(0);
-                }
-
-                100% {
-                    transform: translateX(-50%);
-                }
-            }
-
-            .animate-scroll {
-                animation: scroll 80s linear infinite;
-                /* Delay the start of the animation by 3 seconds */
-                animation-delay: 3s;
-            }
-
-            .group:hover .animate-scroll {
-                animation-play-state: paused;
-            }
-        </style>
-
-         <div class="max-w-[1400px] mx-auto py-20 px-4">
+        <div class="max-w-[1400px] mx-auto py-20 px-4">
             <div class="campus-gallery">
                 <div class="campus-item intro-card">
                     <h2>Our Campus</h2>
-                    <p>A world class learning environment designed to inspire imagination, creativity and exploration. Every space supports learning and innovation.</p>
-                    
-                 
+                    <p>A world class learning environment designed to inspire imagination, creativity and exploration.
+                        Every space supports learning and innovation.</p>
+
+
                 </div>
 
                 <div class="campus-item">
-                    <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&fit=crop&w=1200&q=80" alt="Modern Classrooms">
+                    <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&fit=crop&w=1200&q=80"
+                        alt="Modern Classrooms">
                     <div class="campus-overlay">
                         <h3>Modern Classrooms and Smart Learning Tools</h3>
-                        <p>Air-conditioned classrooms equipped with advanced digital tools for interactive and engaging learning experiences.</p>
+                        <p>Air-conditioned classrooms equipped with advanced digital tools for interactive and engaging
+                            learning experiences.</p>
                     </div>
                 </div>
 
                 <div class="campus-item">
-                    <img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=1200&q=80" alt="Science & Computer Labs">
+                    <img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=1200&q=80"
+                        alt="Science & Computer Labs">
                     <div class="campus-overlay">
                         <h3>Well Equipped Science and Computer Labs</h3>
-                        <p>Advanced laboratories for Biology, Chemistry, Physics, and Robotics that encourage hands on inquiry, experimentation, and technological innovation.</p>
+                        <p>Advanced laboratories for Biology, Chemistry, Physics, and Robotics that encourage hands on
+                            inquiry, experimentation, and technological innovation.</p>
                     </div>
                 </div>
 
                 <div class="campus-item">
-                    <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80" alt="Reading Zones">
+                    <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80"
+                        alt="Reading Zones">
                     <div class="campus-overlay">
                         <h3>Reading Zones (Library, E-Library and Toy Library)</h3>
-                        <p>A well spacious and resource-rich library, advanced E-library and engaging toy library, which provide a stimulating environment for integrated learning.</p>
+                        <p>A well spacious and resource-rich library, advanced E-library and engaging toy library, which
+                            provide a stimulating environment for integrated learning.</p>
                     </div>
                 </div>
 
                 <div class="campus-item">
-                    <img src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&fit=crop&w=1200&q=80" alt="AR-VR Lab">
+                    <img src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&fit=crop&w=1200&q=80"
+                        alt="AR-VR Lab">
                     <div class="campus-overlay">
                         <h3>AR-VR Lab</h3>
-                        <p>Our State-of-the-art AR-VR Lab transforms traditional lessons into immersive, hands-on experiences where students do not only learn concepts — they experience them.</p>
+                        <p>Our State-of-the-art AR-VR Lab transforms traditional lessons into immersive, hands-on
+                            experiences where students do not only learn concepts — they experience them.</p>
                     </div>
                 </div>
 
                 <div class="campus-item">
-                    <img src="https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=1200&q=80" alt="Health & Wellness">
+                    <img src="https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=1200&q=80"
+                        alt="Health & Wellness">
                     <div class="campus-overlay">
                         <h3>Health and Wellness Facilities</h3>
-                        <p>A well-equipped First Aid Room with essential facilities staffed by trained personnel. Counselling services support students' emotional, mental and academic growth.</p>
+                        <p>A well-equipped First Aid Room with essential facilities staffed by trained personnel.
+                            Counselling services support students' emotional, mental and academic growth.</p>
                     </div>
                 </div>
 
                 <div class="campus-item">
-                    <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=1200&q=80" alt="Safety & Security">
+                    <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=1200&q=80"
+                        alt="Safety & Security">
                     <div class="campus-overlay">
                         <h3>Safety and Security</h3>
-                        <p>Round the clock CCTV surveillance, trained security personnel, and secure entry and exit systems ensure a safe and nurturing environment at all times.</p>
+                        <p>Round the clock CCTV surveillance, trained security personnel, and secure entry and exit
+                            systems ensure a safe and nurturing environment at all times.</p>
                     </div>
                 </div>
 
                 <div class="campus-item">
-                    <img src="https://images.unsplash.com/photo-1570125909232-eb263c188f7e?auto=format&fit=crop&w=1200&q=80" alt="Bus Facility">
+                    <img src="https://images.unsplash.com/photo-1570125909232-eb263c188f7e?auto=format&fit=crop&w=1200&q=80"
+                        alt="Bus Facility">
                     <div class="campus-overlay">
                         <h3>Bus Facility and GPS Tracking</h3>
-                        <p>GPS and CCTV enabled school transport facility. This facility makes travelling safe and comfortable for students. It relieves anxiety in today's age of career and business oriented parents.</p>
+                        <p>GPS and CCTV enabled school transport facility. This facility makes travelling safe and
+                            comfortable for students. It relieves anxiety in today's age of career and business oriented
+                            parents.</p>
                     </div>
                 </div>
 
                 <div class="campus-item">
-                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1200&q=80" alt="Co-Curricular Activities">
+                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1200&q=80"
+                        alt="Co-Curricular Activities">
                     <div class="campus-overlay">
                         <h3>Co-Curricular Activities and Student Life</h3>
-                        <p>At Thakur International School, education extends beyond academics. We believe, true growth happens when students explore passions, discover talents, and build meaningful relationships.</p>
+                        <p>At Thakur International School, education extends beyond academics. We believe, true growth
+                            happens when students explore passions, discover talents, and build meaningful
+                            relationships.</p>
                     </div>
                 </div>
 
                 <div class="campus-item">
-                    <img src="https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=1200&q=80" alt="Sports Facilities">
+                    <img src="https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=1200&q=80"
+                        alt="Sports Facilities">
                     <div class="campus-overlay">
                         <h3>Sports and Physical Education</h3>
-                        <p>A vibrant playground offering cricket, football, basketball, Athletics, swimming, badminton, table tennis, carrom and chess that foster teamwork, sportsmanship, discipline, and physical well-being.</p>
+                        <p>A vibrant playground offering cricket, football, basketball, Athletics, swimming, badminton,
+                            table tennis, carrom and chess that foster teamwork, sportsmanship, discipline, and physical
+                            well-being.</p>
                     </div>
                 </div>
 
                 <div class="campus-item">
-                    <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1200&q=80" alt="Creative Arts">
+                    <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1200&q=80"
+                        alt="Creative Arts">
                     <div class="campus-overlay">
                         <h3>Creative Art Room and Performance Spaces</h3>
-                        <p>Dedicated art, music, dance, speech and drama rooms where students confidently explore and showcase their creative talents. This brings conviction, ingenuity and stage presence.</p>
+                        <p>Dedicated art, music, dance, speech and drama rooms where students confidently explore and
+                            showcase their creative talents. This brings conviction, ingenuity and stage presence.</p>
                     </div>
                 </div>
 
                 <div class="campus-item">
-                    <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=1200&q=80" alt="Leadership Programs">
+                    <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=1200&q=80"
+                        alt="Leadership Programs">
                     <div class="campus-overlay">
                         <h3>Leadership Programs</h3>
-                        <p>Through Student Council, Debates, Competitions, and Special Assemblies, we nurture leadership, responsibility and empathy. These opportunities strengthen self-belief and create well-rounded individuals.</p>
+                        <p>Through Student Council, Debates, Competitions, and Special Assemblies, we nurture
+                            leadership, responsibility and empathy. These opportunities strengthen self-belief and
+                            create well-rounded individuals.</p>
                     </div>
                 </div>
 
                 <div class="campus-item">
-                    <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80" alt="High Success Rate">
+                    <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80"
+                        alt="High Success Rate">
                     <div class="campus-overlay">
                         <h3>High Success Rate</h3>
-                        <p>Our students are consistently ranked among the top performers in the city, confidently progressing to prestigious higher education institutions and successful future paths.</p>
+                        <p>Our students are consistently ranked among the top performers in the city, confidently
+                            progressing to prestigious higher education institutions and successful future paths.</p>
                     </div>
                 </div>
             </div>
         </div>
-   
+
         <!-- Admission Process Section -->
         <section class="bg-gray-50 py-16">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -2421,55 +1468,67 @@
                     <!-- Offline Process -->
                     <div class="bg-white rounded-xl shadow-lg p-8">
                         <div class="text-center mb-8">
-                            <div class="inline-flex items-center justify-center w-16 h-16 bg-[#112547] rounded-full mb-4">
+                            <div
+                                class="inline-flex items-center justify-center w-16 h-16 bg-[#112547] rounded-full mb-4">
                                 <span class="material-symbols-outlined text-white text-2xl">store</span>
                             </div>
                             <h3 class="text-2xl font-bold text-[#112547]">Admission Process - Offline</h3>
                         </div>
-                        
+
                         <div class="space-y-6">
                             <div class="flex items-start space-x-4">
-                                <div class="flex-shrink-0 w-8 h-8 bg-[#fcc513] rounded-full flex items-center justify-center">
+                                <div
+                                    class="flex-shrink-0 w-8 h-8 bg-[#fcc513] rounded-full flex items-center justify-center">
                                     <span class="text-[#112547] font-bold text-sm">1</span>
                                 </div>
                                 <div>
-                                    <p class="text-gray-700 leading-relaxed">Obtaining the Brochure and application form for Admission, from the School office.</p>
+                                    <p class="text-gray-700 leading-relaxed">Obtaining the Brochure and application form
+                                        for Admission, from the School office.</p>
                                 </div>
                             </div>
-                            
+
                             <div class="flex items-start space-x-4">
-                                <div class="flex-shrink-0 w-8 h-8 bg-[#fcc513] rounded-full flex items-center justify-center">
+                                <div
+                                    class="flex-shrink-0 w-8 h-8 bg-[#fcc513] rounded-full flex items-center justify-center">
                                     <span class="text-[#112547] font-bold text-sm">2</span>
                                 </div>
                                 <div>
-                                    <p class="text-gray-700 leading-relaxed">Submitting the duly completed application form and supporting documents to TIS Administrative office and paying the Registration fee within the specified period.</p>
+                                    <p class="text-gray-700 leading-relaxed">Submitting the duly completed application
+                                        form and supporting documents to TIS Administrative office and paying the
+                                        Registration fee within the specified period.</p>
                                 </div>
                             </div>
-                            
+
                             <div class="flex items-start space-x-4">
-                                <div class="flex-shrink-0 w-8 h-8 bg-[#fcc513] rounded-full flex items-center justify-center">
+                                <div
+                                    class="flex-shrink-0 w-8 h-8 bg-[#fcc513] rounded-full flex items-center justify-center">
                                     <span class="text-[#112547] font-bold text-sm">3</span>
                                 </div>
                                 <div>
-                                    <p class="text-gray-700 leading-relaxed">Informing about the admission decision by the school to the parents.</p>
+                                    <p class="text-gray-700 leading-relaxed">Informing about the admission decision by
+                                        the school to the parents.</p>
                                 </div>
                             </div>
-                            
+
                             <div class="flex items-start space-x-4">
-                                <div class="flex-shrink-0 w-8 h-8 bg-[#fcc513] rounded-full flex items-center justify-center">
+                                <div
+                                    class="flex-shrink-0 w-8 h-8 bg-[#fcc513] rounded-full flex items-center justify-center">
                                     <span class="text-[#112547] font-bold text-sm">4</span>
                                 </div>
                                 <div>
-                                    <p class="text-gray-700 leading-relaxed">Acceptance of the admission by the parents and payment of applicable fees/charges/expenses.</p>
+                                    <p class="text-gray-700 leading-relaxed">Acceptance of the admission by the parents
+                                        and payment of applicable fees/charges/expenses.</p>
                                 </div>
                             </div>
-                            
+
                             <div class="flex items-start space-x-4">
-                                <div class="flex-shrink-0 w-8 h-8 bg-[#fcc513] rounded-full flex items-center justify-center">
+                                <div
+                                    class="flex-shrink-0 w-8 h-8 bg-[#fcc513] rounded-full flex items-center justify-center">
                                     <span class="text-[#112547] font-bold text-sm">5</span>
                                 </div>
                                 <div>
-                                    <p class="text-gray-700 leading-relaxed">Confirmation of admission by Thakur International School.</p>
+                                    <p class="text-gray-700 leading-relaxed">Confirmation of admission by Thakur
+                                        International School.</p>
                                 </div>
                             </div>
                         </div>
@@ -2478,82 +1537,97 @@
                     <!-- Online Process -->
                     <div class="bg-white rounded-xl shadow-lg p-8">
                         <div class="text-center mb-8">
-                            <div class="inline-flex items-center justify-center w-16 h-16 bg-[#3d6ef1] rounded-full mb-4">
+                            <div
+                                class="inline-flex items-center justify-center w-16 h-16 bg-[#3d6ef1] rounded-full mb-4">
                                 <span class="material-symbols-outlined text-white text-2xl">computer</span>
                             </div>
                             <h3 class="text-2xl font-bold text-[#3d6ef1]">Admission Process - Online</h3>
                         </div>
-                        
+
                         <div class="space-y-6">
                             <div class="flex items-start space-x-4">
-                                <div class="flex-shrink-0 w-8 h-8 bg-[#fcc513] rounded-full flex items-center justify-center">
+                                <div
+                                    class="flex-shrink-0 w-8 h-8 bg-[#fcc513] rounded-full flex items-center justify-center">
                                     <span class="text-[#112547] font-bold text-sm">1</span>
                                 </div>
                                 <div>
-                                    <p class="text-gray-700 leading-relaxed">Click on Admission enquiry on School website.</p>
+                                    <p class="text-gray-700 leading-relaxed">Click on Admission enquiry on School
+                                        website.</p>
                                 </div>
                             </div>
-                            
+
                             <div class="flex items-start space-x-4">
-                                <div class="flex-shrink-0 w-8 h-8 bg-[#fcc513] rounded-full flex items-center justify-center">
+                                <div
+                                    class="flex-shrink-0 w-8 h-8 bg-[#fcc513] rounded-full flex items-center justify-center">
                                     <span class="text-[#112547] font-bold text-sm">2</span>
                                 </div>
                                 <div>
                                     <p class="text-gray-700 leading-relaxed">Add enquiry for admission</p>
                                 </div>
                             </div>
-                            
+
                             <div class="flex items-start space-x-4">
-                                <div class="flex-shrink-0 w-8 h-8 bg-[#fcc513] rounded-full flex items-center justify-center">
+                                <div
+                                    class="flex-shrink-0 w-8 h-8 bg-[#fcc513] rounded-full flex items-center justify-center">
                                     <span class="text-[#112547] font-bold text-sm">3</span>
                                 </div>
                                 <div>
-                                    <p class="text-gray-700 leading-relaxed">Purchase Admission Form by paying applicable charges</p>
+                                    <p class="text-gray-700 leading-relaxed">Purchase Admission Form by paying
+                                        applicable charges</p>
                                 </div>
                             </div>
-                            
+
                             <div class="flex items-start space-x-4">
-                                <div class="flex-shrink-0 w-8 h-8 bg-[#fcc513] rounded-full flex items-center justify-center">
+                                <div
+                                    class="flex-shrink-0 w-8 h-8 bg-[#fcc513] rounded-full flex items-center justify-center">
                                     <span class="text-[#112547] font-bold text-sm">4</span>
                                 </div>
                                 <div>
-                                    <p class="text-gray-700 leading-relaxed">Submit the duly filled form along with the required documents</p>
+                                    <p class="text-gray-700 leading-relaxed">Submit the duly filled form along with the
+                                        required documents</p>
                                 </div>
                             </div>
-                            
+
                             <div class="flex items-start space-x-4">
-                                <div class="flex-shrink-0 w-8 h-8 bg-[#fcc513] rounded-full flex items-center justify-center">
+                                <div
+                                    class="flex-shrink-0 w-8 h-8 bg-[#fcc513] rounded-full flex items-center justify-center">
                                     <span class="text-[#112547] font-bold text-sm">5</span>
                                 </div>
                                 <div>
                                     <p class="text-gray-700 leading-relaxed">Pay registration charges</p>
                                 </div>
                             </div>
-                            
+
                             <div class="flex items-start space-x-4">
-                                <div class="flex-shrink-0 w-8 h-8 bg-[#fcc513] rounded-full flex items-center justify-center">
+                                <div
+                                    class="flex-shrink-0 w-8 h-8 bg-[#fcc513] rounded-full flex items-center justify-center">
                                     <span class="text-[#112547] font-bold text-sm">6</span>
                                 </div>
                                 <div>
-                                    <p class="text-gray-700 leading-relaxed">On verification of admission form and uploaded documents, get confirmation from the School on admission decision.</p>
+                                    <p class="text-gray-700 leading-relaxed">On verification of admission form and
+                                        uploaded documents, get confirmation from the School on admission decision.</p>
                                 </div>
                             </div>
-                            
+
                             <div class="flex items-start space-x-4">
-                                <div class="flex-shrink-0 w-8 h-8 bg-[#fcc513] rounded-full flex items-center justify-center">
+                                <div
+                                    class="flex-shrink-0 w-8 h-8 bg-[#fcc513] rounded-full flex items-center justify-center">
                                     <span class="text-[#112547] font-bold text-sm">7</span>
                                 </div>
                                 <div>
-                                    <p class="text-gray-700 leading-relaxed">Pay the applicable fees/charges/expenses.</p>
+                                    <p class="text-gray-700 leading-relaxed">Pay the applicable fees/charges/expenses.
+                                    </p>
                                 </div>
                             </div>
-                            
+
                             <div class="flex items-start space-x-4">
-                                <div class="flex-shrink-0 w-8 h-8 bg-[#fcc513] rounded-full flex items-center justify-center">
+                                <div
+                                    class="flex-shrink-0 w-8 h-8 bg-[#fcc513] rounded-full flex items-center justify-center">
                                     <span class="text-[#112547] font-bold text-sm">8</span>
                                 </div>
                                 <div>
-                                    <p class="text-gray-700 leading-relaxed">Confirmation of admission by Thakur International School.</p>
+                                    <p class="text-gray-700 leading-relaxed">Confirmation of admission by Thakur
+                                        International School.</p>
                                 </div>
                             </div>
                         </div>
@@ -2562,58 +1636,45 @@
             </div>
         </section>
 
-   
+
 
 
         <!-- Managerial Program Section -->
-<div class="relative py-8 sm:py-12 md:py-14 flex items-center justify-center bg-[#efe0d4]">
+        <main class="grid grid-cols-1 lg:grid-cols-2 min-h-[60vh] relative overflow-hidden">
+            
+            <section class="flex flex-col justify-center px-8 lg:px-24 py-12" style="background-color: #F8FAFC;">
+                <div class="max-w-xl">
+                    <h1 class="text-3xl lg:text-5xl font-bold leading-[1.1] tracking-tight" style="color: #0B213F;">
+                        Join a community where 
+                        <span style="color: #fcc513;">curiosity blooms</span>, 
+                        every child is encouraged to explore, and learning becomes a 
+                        <span style="color: #fcc513;">journey of growth</span>.
+                    </h1>
+                </div>
+            </section>
 
-    <div class="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-20 items-center">
-
-            <div class="text-center lg:text-left">
-                <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-[#112547] leading-tight">
-                    Join a community where <span class="text-[#3d6ef1]">curiosity blooms</span>, every child is encouraged to 
-                    <span class="relative inline-block">
-                        explore,
-                        <span class="absolute bottom-1.5 left-0 w-full h-2 bg-[#fcc513] opacity-30 -z-10"></span>
-                    </span> 
-                    and learning becomes a journey of <span class="text-[#3d6ef1]">growth.</span>
-                </h1>
-            </div>
-
-            <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-[0_15px_35px_rgba(17,37,71,0.1)] overflow-hidden w-full max-w-sm sm:max-w-md mx-auto lg:mx-0 border-t-4 border-[#112547]"
-                id="enrollment-form">
-
-                <div class="p-6 sm:p-8">
-                    <div id="form-content">
-                        <div class="step-transition" id="step-1">
-
-                            <h2 class="text-xl sm:text-2xl font-bold text-[#112547]">Begin Your Journey</h2>
-                            <p class="mt-2 text-sm sm:text-base text-gray-600 dark:text-gray-400 leading-snug">
-                                Complete a few quick details to discover the TIS difference.
-                            </p>
-
-                            <a href="#tis-form" id="start-btn" 
-                                class="mt-6 w-full bg-[#fcc513] hover:bg-[#eab308] text-[#112547] font-black py-3 px-6 rounded-xl
-                                shadow-md shadow-yellow-600/10 transition-all duration-300 flex items-center justify-center group uppercase tracking-wider text-sm">
-                                Let's Begin
-                                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                </svg>
-                            </a>
-
-                            <style>
-                                html { scroll-behavior: smooth; }
-                                #tis-form { scroll-margin-top: 4rem; }
-                            </style>
-                        </div>
+            <section class="relative min-h-[350px] lg:min-h-full">
+                <img alt="Child learning" class="absolute inset-0 w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDjqB1tcHpInGeGeq9chVNN4bU48OZdNqZxUTNuIT8aIcAal08OOC5u3sOlUX_iglKBLQNEOUxUO0PcMWGNBOxrEqvbmN_B0y0BR5cK8nuV1XTxFdq2IJJ77_uC-2LIXVF2CkyfVnU-bf-poRgMbWRB0xPjyqU5IegpEprub-ME8HcJ_yCHMOebAzgt2gislYzmmvJ3UaY4HA9gTSCVtMUe9BYVWe9qePl5riI1AVRbAMBScyJj18RitlkXM8Q1XT2kfOVVNOVp-po"/>
+                <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
+                
+                <div class="absolute bottom-6 right-6 lg:bottom-10 lg:right-10 w-full max-w-[350px] px-2">
+                    <div class="p-6 rounded-xl shadow-2xl backdrop-blur-sm border border-white/20" style="background-color: #E2E8F0;">
+                        <h3 class="text-2xl font-bold mb-2" style="color: #0B213F;">Begin Your Journey</h3>
+                        
+                        <p class="text-sm mb-6 leading-relaxed opacity-90" style="color: #0B213F;">
+                            Complete a few quick details to discover the TIS difference.
+                        </p>
+                        
+                        <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="w-full text-white font-bold py-3.5 px-6 rounded-lg flex items-center justify-center gap-2 group transition-all transform hover:scale-[1.02] active:scale-95 text-sm" 
+                                style="background-color: #112547;">
+                            <span>LET'S BEGIN</span>
+                            <span class="material-icons text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                        </button>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
+            </section>
+
+        </main>
 
 
 
@@ -2638,8 +1699,7 @@
                         <div class="w-full overflow-hidden rounded-lg border border-gray-200 dark:border-gray-700">
                             <!-- remove fixed width/height attributes — let CSS control the size -->
                             <iframe class="w-full h-[180px] sm:h-[200px] md:h-[240px] lg:h-[200px]"
-                              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.790330727466!2d72.83129998015808!3d19.20435800160905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b760302c6be5%3A0x92a4a1596033736c!2sThakur%20International%20school%20%2C%20Kandivali%20West!5e0!3m2!1sen!2sin!4v1772607761038!5m2!1sen!2sin"
-                                
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.790330727466!2d72.83129998015808!3d19.20435800160905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b760302c6be5%3A0x92a4a1596033736c!2sThakur%20International%20school%20%2C%20Kandivali%20West!5e0!3m2!1sen!2sin!4v1772607761038!5m2!1sen!2sin"
                                 style="border:0;" allowfullscreen="" loading="lazy"
                                 referrerpolicy="no-referrer-when-downgrade" aria-hidden="false"
                                 title="Thakur Global Business School location">
@@ -2656,7 +1716,7 @@
                                     class="material-symbols-outlined text-white text-2xl sm:text-3xl mt-0.5">phone</span>
                                 <a href="tel:9920214191"
                                     class="text-base sm:text-lg text-white hover:underline hover:decoration-white hover:underline-offset-2">
-                                022-28020000, 28020004, 022-69384477.
+                                    022-28020000, 28020004, 022-69384477.
                                 </a>
                             </div>
 
@@ -2665,7 +1725,7 @@
                                     class="material-symbols-outlined text-white text-2xl sm:text-3xl mt-0.5">email</span>
                                 <a href="mailto:tis@thakureducation.org"
                                     class="text-base sm:text-lg text-white hover:underline hover:decoration-white hover:underline-offset-2">
-                                   tis@thakureducation.org
+                                    tis@thakureducation.org
                                 </a>
                             </div>
 
@@ -2674,7 +1734,9 @@
                                     class="material-symbols-outlined text-white text-2xl sm:text-3xl mt-0.5">location_on</span>
                                 <p
                                     class="text-base sm:text-lg text-white hover:underline hover:decoration-white hover:underline-offset-2 cursor-pointer">
-                                    Thakur International School, C.T.S, 1299, Chatrapati Shivaji Maharaj Rd, off M.G.Road, New Saibaba Nagar, Hemu Colony, Bhagat Colony, Kandivali West, Mumbai, Maharashtra 400067
+                                    Thakur International School, C.T.S, 1299, Chatrapati Shivaji Maharaj Rd, off
+                                    M.G.Road, New Saibaba Nagar, Hemu Colony, Bhagat Colony, Kandivali West, Mumbai,
+                                    Maharashtra 400067
                                 </p>
                             </div>
 
@@ -2686,7 +1748,8 @@
             </div>
             <div class="border-t border-gray-700 mt-6">
                         <p class="text-center text-xs sm:text-sm text-gray-500 dark:text-gray-600 py-4">
-                                Copyright © 2026 Thakur Inernational School(An Institute under Thakur Education Group). All rights reserved.
+                                Copyright © 2026 Thakur Inernational School(An Institute under Thakur Education Group).
+                    All rights reserved.
                             </p>
                     </div>
     </div>
