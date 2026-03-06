@@ -520,17 +520,14 @@
 
                     <!-- right controls -->
                     <div class="flex items-center space-x-2 sm:space-x-4">
-                        <!-- mobile social icons -->
-                        <div class="flex md:hidden items-center space-x-2">
-                            <a href="https://wa.me/919920214191?text=I%20have%20queries%20regarding%20admissions.%20Can%20you%20help%20me%20out?%20"
-                                target="_blank" aria-label="WhatsApp"
-                                class="transition-opacity hover:opacity-80">
-                                <img src="./Icons/whatsapp.webp" class="w-6 h-6 object-contain" alt="whatsapp icon" />
-                            </a>
-                            <a href="tel:+919920214191" aria-label="Call" class="transition-opacity hover:opacity-80">
-                                <img src="./Icons/phone.webp" class="w-6 h-6 object-contain" alt="call icon" />
-                            </a>
-                        </div>
+                        <!-- mobile hamburger menu -->
+                        <button id="mobile-nav-toggle" aria-expanded="false" aria-controls="mobile-nav"
+                            class="inline-flex md:hidden items-center justify-center p-2 rounded-md text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-primary transition">
+                            <span class="sr-only">Open social menu</span>
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                            </svg>
+                        </button>
                         
                         <!-- desktop icons -->
                         <a href="https://wa.me/919920214191?text=I%20have%20queries%20regarding%20admissions.%20Can%20you%20help%20me%20out?%20"
@@ -548,104 +545,13 @@
                                 <img src="./Icons/mail.webp" class="w-7 h-7 object-contain" alt="email icon" />
                             </a>
                         </div>
-
-
-                        <!-- mobile: phone icon then hamburger -->
-                        <!-- <a href="tel:+91XXXXXXXXXX" class="md:hidden mr-2 transition-opacity hover:opacity-80"
-                            aria-label="Call">
-                            <img src="./Images/Icons/phone.webp" class="w-6 h-6 object-contain" alt="call icon" />
-                        </a> -->
-
-                        <button id="mobile-nav-toggle" aria-expanded="false" aria-controls="mobile-nav"
-                            class="inline-flex md:hidden items-center justify-center p-2 rounded-md text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-primary transition">
-                            <span class="sr-only">Open main menu</span>
-                            <!-- hamburger -->
-                            <img src="./Images/Icons/hamburger_15412985.svg" class="w-6 h-6 object-contain"
-                                alt="menu icon" />
-
-                        </button>
                     </div>
                 </div>
             </div>
 
-            <!-- Mobile menu (hidden on md+) -->
-            <div id="mobile-nav" class="md:hidden hidden">
-                <div
-                    class="px-4 pb-6 border-t border-gray-100 dark:border-gray-800 bg-white dark:bg-gray-900/90 backdrop-blur-sm">
-                    <nav class="space-y-2 pt-4">
-                        <a href="#tis-tis"
-                            class="block px-2 py-2 rounded text-base font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800">WHY
-                            tis</a>
-                        <a href="#welcome"
-                            class="block px-2 py-2 rounded text-base font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800">ABOUT
-                            US</a>
-                        <a href="#specialisation"
-                            class="block px-2 py-2 rounded text-base font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800">SPECIALISATIONS</a>
-                        <!--<a href="#apply"-->
-                        <!--    class="block px-2 py-2 rounded text-base font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800">HOW-->
-                        <!--    TO APPLY</a>-->
-                        <a href="#admission"
-                            class="block px-2 py-2 rounded text-base font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800">ADMISSIONS</a>
-                        <a href="#footer"
-                            class="block px-2 py-2 rounded text-base font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800">CONTACT</a>
-                    </nav>
 
-                    <!-- contact shortcuts -->
-                    <div class="mt-4 pt-4 border-t border-gray-100 dark:border-gray-800 flex items-center space-x-4">
-                        <a href="tel:+919920214191"
-                            class="flex items-center text-gray-700 dark:text-gray-200 hover:text-primary">
-                            <img src="./Icons/phone.webp" class="w-5 h-5 object-contain mr-2" alt="call icon" />
-                            Call
-                        </a>
-                        <a href="https://wa.me/919920214191?text=I%20have%20queries%20regarding%20admissions.%20Can%20you%20help%20me%20out?%20"
-                            target="_blank"
-                            class="flex items-center text-gray-700 dark:text-gray-200 hover:text-primary">
-                            <img src="./Icons/whatsapp.webp" class="w-5 h-5 object-contain mr-2" alt="whatsapp icon" />
-                            WhatsApp
-                        </a>
-                        <a href="mailto:tis@thakureducation.org"
-                            class="flex items-center text-gray-700 dark:text-gray-200 hover:text-primary">
-                            <img src="./Icons/mail.webp" class="w-5 h-5 object-contain mr-2" alt="email icon" />
-                            Email
-                        </a>
-                    </div>
-                </div>
-            </div>
 
-            <script>
-                (function () {
-                    var btn = document.getElementById('mobile-nav-toggle');
-                    var menu = document.getElementById('mobile-nav');
-                    if (!btn || !menu) return;
 
-                    btn.addEventListener('click', function (e) {
-                        var expanded = btn.getAttribute('aria-expanded') === 'true';
-                        btn.setAttribute('aria-expanded', String(!expanded));
-                        menu.classList.toggle('hidden');
-                        // simple animation class (optional)
-                        if (!menu.classList.contains('hidden')) {
-                            menu.style.animation = 'slideDown 220ms ease forwards';
-                        }
-                    });
-
-                    // close on outside click
-                    document.addEventListener('click', function (ev) {
-                        var target = ev.target;
-                        if (!menu.classList.contains('hidden') && !menu.contains(target) && !btn.contains(target)) {
-                            menu.classList.add('hidden');
-                            btn.setAttribute('aria-expanded', 'false');
-                        }
-                    });
-
-                    // keyboard: Esc closes menu
-                    document.addEventListener('keydown', function (ev) {
-                        if (ev.key === 'Escape' && !menu.classList.contains('hidden')) {
-                            menu.classList.add('hidden');
-                            btn.setAttribute('aria-expanded', 'false');
-                        }
-                    });
-                }());
-            </script>
 
             <style>
                 /* small slide animation for mobile menu (optional) */
@@ -661,6 +567,48 @@
                     }
                 }
             </style>
+
+            <!-- Mobile Social Menu -->
+            <div id="mobile-nav" class="md:hidden hidden">
+                <div class="px-4 pb-6 border-t border-gray-100 dark:border-gray-800 bg-white dark:bg-gray-900/90 backdrop-blur-sm">
+                    <div class="flex items-center justify-center space-x-6 pt-4">
+                        <a href="https://wa.me/919920214191?text=I%20have%20queries%20regarding%20admissions.%20Can%20you%20help%20me%20out?%20"
+                            target="_blank" aria-label="WhatsApp"
+                            class="transition-opacity hover:opacity-80">
+                            <img src="./Icons/whatsapp.webp" class="w-8 h-8 object-contain" alt="whatsapp icon" />
+                        </a>
+                        <a href="tel:+919920214191" aria-label="Call"
+                            class="transition-opacity hover:opacity-80">
+                            <img src="./Icons/phone.webp" class="w-8 h-8 object-contain" alt="call icon" />
+                        </a>
+                        <a href="mailto:tis@thakureducation.org" aria-label="Email"
+                            class="transition-opacity hover:opacity-80">
+                            <img src="./Icons/mail.webp" class="w-8 h-8 object-contain" alt="email icon" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <script>
+                (function () {
+                    var btn = document.getElementById('mobile-nav-toggle');
+                    var menu = document.getElementById('mobile-nav');
+                    if (!btn || !menu) return;
+
+                    btn.addEventListener('click', function (e) {
+                        var expanded = btn.getAttribute('aria-expanded') === 'true';
+                        btn.setAttribute('aria-expanded', String(!expanded));
+                        menu.classList.toggle('hidden');
+                    });
+
+                    document.addEventListener('click', function (ev) {
+                        if (!menu.classList.contains('hidden') && !menu.contains(ev.target) && !btn.contains(ev.target)) {
+                            menu.classList.add('hidden');
+                            btn.setAttribute('aria-expanded', 'false');
+                        }
+                    });
+                }());
+            </script>
         </header>
 
 
